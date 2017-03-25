@@ -25,7 +25,13 @@ dependencies {
     })
     compile 'com.android.support:appcompat-v7:23.4.0'
     compile 'com.android.support:design:23.4.0'
+    compile ('com.android.support:support-v4:23.4.0'){
+        force = true;
+    }
+    compile 'com.zhaoxiaodan.miband:miband-sdk:1.1.2'
     compile 'com.android.volley:volley:1.0.0'
+    compile 'com.google.android.gms:play-services-location:10.2.1'
+    compile 'org.apache.commons:commons-lang3:3.4'
     testCompile 'junit:junit:4.12'
     compile files('libs/libStreamSDK.jar')
     compile files('libs/NskAlgoSdk.jar')

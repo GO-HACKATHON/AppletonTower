@@ -1,11 +1,24 @@
 package tech.titikkoma.cerebro;
 
+import android.Manifest;
 import android.app.ProgressDialog;
 import android.bluetooth.BluetoothAdapter;
+import android.bluetooth.BluetoothDevice;
+import android.bluetooth.BluetoothGatt;
+import android.bluetooth.BluetoothGattCallback;
+import android.bluetooth.BluetoothGattCharacteristic;
+import android.bluetooth.BluetoothGattDescriptor;
+import android.bluetooth.le.ScanCallback;
+import android.bluetooth.le.ScanResult;
 import android.content.DialogInterface;
+import android.content.pm.PackageManager;
+import android.location.Location;
 import android.os.Bundle;
+import android.support.annotation.NonNull;
+import android.support.annotation.Nullable;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
+import android.support.v4.app.ActivityCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.util.Log;
@@ -15,12 +28,17 @@ import android.view.MenuItem;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.android.volley.AuthFailureError;
+import com.android.volley.DefaultRetryPolicy;
 import com.android.volley.Request;
 import com.android.volley.RequestQueue;
 import com.android.volley.Response;
 import com.android.volley.VolleyError;
 import com.android.volley.toolbox.JsonObjectRequest;
 import com.android.volley.toolbox.Volley;
+import com.google.android.gms.common.ConnectionResult;
+import com.google.android.gms.common.api.GoogleApiClient;
+import com.google.android.gms.location.LocationServices;
 import com.neurosky.AlgoSdk.NskAlgoDataType;
 import com.neurosky.AlgoSdk.NskAlgoSdk;
 import com.neurosky.AlgoSdk.NskAlgoSignalQuality;
@@ -30,7 +48,13 @@ import com.neurosky.connection.ConnectionStates;
 import com.neurosky.connection.DataType.MindDataType;
 import com.neurosky.connection.TgStreamHandler;
 import com.neurosky.connection.TgStreamReader;
+import com.zhaoxiaodan.miband.ActionCallback;
+import com.zhaoxiaodan.miband.MiBand;
+import com.zhaoxiaodan.miband.listeners.HeartRateNotifyListener;
+import com.zhaoxiaodan.miband.model.Profile;
+import com.zhaoxiaodan.miband.model.UserInfo;
 
+import org.apache.commons.lang3.ArrayUtils;
 import org.json.JSONException;
 import org.json.JSONObject;
 
@@ -38,10 +62,21 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
+import java.util.Arrays;
+import java.util.HashMap;
+import java.util.Map;
+import java.util.Timer;
+import java.util.TimerTask;
+import java.util.UUID;
 
-public class ProfileActivity extends AppCompatActivity {
+import javax.crypto.Cipher;
+import javax.crypto.spec.SecretKeySpec;
+
+public class ProfileActivity extends AppCompatActivity implements GoogleApiClient.ConnectionCallbacks, GoogleApiClient.OnConnectionFailedListener, HeartRateNotifyListener {
 
     private final String TAG = "tkd";
+    private final String SERVER_URL = "http://5c8b765b.ngrok.io/storage/";
+    private final int REQUEST_INTERVAL = 10000;
 
     // COMM SDK handles
     private TgStreamReader tgStreamReader;
@@ -50,21 +85,34 @@ public class ProfileActivity extends AppCompatActivity {
     // internal variables
     private boolean bInited = false;
     private boolean bRunning = false;
-    private NskAlgoType currentSelectedAlgo;
 
     // canned data variables
     private short raw_data[] = {0};
-    private int raw_data_index= 0;
+    private int raw_data_index = 0;
     private float output_data[];
     private int output_data_count = 0;
     private int raw_data_sec_len = 85;
+
+    private int attention;
+    private int calmness;
+    private int heartRate;
 
     private View dataView;
 
     private TextView attentionValue;
     private TextView calmnessValue;
+    private TextView hrValue;
 
     private NskAlgoSdk nskAlgoSdk;
+    private GoogleApiClient mGAC;
+
+    private BluetoothDevice device;
+    private MiBand miBand;
+    private BluetoothGatt bluetoothGatt;
+
+    private Location mLastLocation;
+    private double lat;
+    private double lng;
 
     private ProgressDialog loadingDialog;
 
@@ -89,6 +137,10 @@ public class ProfileActivity extends AppCompatActivity {
 
         attentionValue = (TextView) findViewById(R.id.attention);
         calmnessValue = (TextView) findViewById(R.id.calmness);
+        hrValue = (TextView) findViewById(R.id.heart_rate);
+
+//        miBand = new MiBand(ProfileActivity.this);
+//        initMiBand();
 
         nskAlgoSdk = new NskAlgoSdk();
         algoSetup();
@@ -201,6 +253,7 @@ public class ProfileActivity extends AppCompatActivity {
             @Override
             public void onAttAlgoIndex(int value) {
                 Log.d(TAG, "NskAlgoAttAlgoIndexListener: Attention:" + value);
+                attention = value;
                 String msg = "";
                 if (value > 60) {
                     msg = " - Tinggi";
@@ -225,6 +278,7 @@ public class ProfileActivity extends AppCompatActivity {
             @Override
             public void onMedAlgoIndex(int value) {
                 Log.d(TAG, "NskAlgoMedAlgoIndexListener: Meditation:" + value);
+                calmness = value;
                 String msg = "";
                 if (value > 60) {
                     msg = " - Santai";
@@ -244,6 +298,113 @@ public class ProfileActivity extends AppCompatActivity {
                 });
             }
         });
+
+        // Google API Client to get location
+        if (mGAC == null) {
+            mGAC = new GoogleApiClient.Builder(this)
+                    .addConnectionCallbacks(this)
+                    .addOnConnectionFailedListener(this)
+                    .addApi(LocationServices.API)
+                    .build();
+
+        }
+    }
+
+    public void initMiBand() {
+        final ScanCallback scanCallback = new ScanCallback()
+        {
+            @Override
+            public void onScanResult(int callbackType, ScanResult result)
+            {
+                device = result.getDevice();
+//                Log.d(TAG, device.getUuids().toString());
+                if (device != null) {
+                    Log.d(TAG, device.toString());
+                    device.connectGatt(ProfileActivity.this, true, new BluetoothGattCallback() {
+                        @Override
+                        public void onCharacteristicRead(BluetoothGatt gatt, BluetoothGattCharacteristic characteristic, int status) {
+                            if (characteristic.getUuid().equals("00000009-0000-3512-2118-0009af100700"))
+                                enableNotifications(characteristic);
+                                characteristic.setValue(new byte[]{0x01, 0x8, 0x30, 0x31, 0x32, 0x33, 0x34, 0x35, 0x36, 0x37, 0x38, 0x39, 0x40, 0x41, 0x42, 0x43, 0x44, 0x45});
+                                gatt.writeCharacteristic(characteristic);
+                            super.onCharacteristicRead(gatt, characteristic, status);
+                        }
+
+                        @Override
+                        public void onCharacteristicChanged(BluetoothGatt gatt, BluetoothGattCharacteristic characteristic) {
+                            byte[] value = characteristic.getValue();
+                            if (value[0] == 0x10 && value[1] == 0x01 && value[2] == 0x01) {
+                                characteristic.setValue(new byte[]{0x02, 0x8});
+                                gatt.writeCharacteristic(characteristic);
+                            } else if (value[0] == 0x10 && value[1] == 0x02 && value[2] == 0x01) {
+                                try {
+                                    value = characteristic.getValue();
+                                    byte[] tmpValue = Arrays.copyOfRange(value, 3, 19);
+                                    Cipher cipher = Cipher.getInstance("AES/ECB/NoPadding");
+
+                                    SecretKeySpec key = new SecretKeySpec(new byte[]{0x30, 0x31, 0x32, 0x33, 0x34, 0x35, 0x36, 0x37, 0x38, 0x39, 0x40, 0x41, 0x42, 0x43, 0x44, 0x45}, "AES");
+
+                                    cipher.init(Cipher.ENCRYPT_MODE, key);
+                                    byte[] bytes = cipher.doFinal(tmpValue);
+
+                                    byte[] rq = ArrayUtils.addAll(new byte[]{0x03, 0x8}, bytes);
+                                    characteristic.setValue(rq);
+                                    gatt.writeCharacteristic(characteristic);
+                                } catch (Exception e) {
+                                    Log.e(TAG, e.getMessage());
+                                }
+                            }
+                            super.onCharacteristicChanged(gatt, characteristic);
+                        }
+                    });
+                    miBand.connect(device, new ActionCallback() {
+
+                        @Override
+                        public void onSuccess(Object data) {
+                            Log.d(TAG, "Connect success");
+                            UserInfo userInfo = new UserInfo(20111111, 1, 25, 166, 62, "Ali", 0);
+                            miBand.setUserInfo(userInfo);
+                            miBand.setHeartRateScanListener(ProfileActivity.this);
+                            miBand.startHeartRateScan();
+                        }
+
+                        @Override
+                        public void onFail(int errorCode, String msg) {
+                            Log.d(TAG, "Connect fail. Code: " + errorCode + "; Message: " + msg);
+                        }
+                    });
+                } else {
+                    Log.d(TAG, "Device cannot be found");
+                }
+            }
+        };
+
+        MiBand.startScan(scanCallback);
+//        MiBand.stopScan(scanCallback);
+    }
+
+    private void enableNotifications(BluetoothGattCharacteristic chrt) {
+        bluetoothGatt.setCharacteristicNotification(chrt, true);
+        for (BluetoothGattDescriptor descriptor : chrt.getDescriptors()){
+            if (descriptor.getUuid().equals(UUID.fromString("00002902-0000-1000-8000-00805f9b34fb"))) {
+                Log.i("INFO", "Found NOTIFICATION BluetoothGattDescriptor: " + descriptor.getUuid().toString());
+                descriptor.setValue(BluetoothGattDescriptor.ENABLE_NOTIFICATION_VALUE);
+            }
+        }
+    }
+
+    @Override
+    protected void onStart() {
+        mGAC.connect();
+        if (mGAC.isConnected())
+            Log.d(TAG, "Connected");
+        super.onStart();
+    }
+
+    @Override
+    protected void onStop() {
+        mGAC.disconnect();
+        super.onStop();
     }
 
     public void headsetSetup() {
@@ -254,9 +415,9 @@ public class ProfileActivity extends AppCompatActivity {
         raw_data_index = 0;
 
         // Example of constructor public TgStreamReader(BluetoothAdapter ba, TgStreamHandler tgStreamHandler)
-        tgStreamReader = new TgStreamReader(mBluetoothAdapter,callback);
+        tgStreamReader = new TgStreamReader(mBluetoothAdapter, callback);
 
-        if(tgStreamReader != null && tgStreamReader.isBTConnected()){
+        if (tgStreamReader != null && tgStreamReader.isBTConnected()) {
 
             // Prepare for connecting
             tgStreamReader.stop();
@@ -271,8 +432,6 @@ public class ProfileActivity extends AppCompatActivity {
     public void algoSetup() {
         // check selected algos
         int algoTypes = 0;// = NskAlgoType.NSK_ALGO_TYPE_CR.value;
-
-        currentSelectedAlgo = NskAlgoType.NSK_ALGO_TYPE_INVALID;
 
         algoTypes += NskAlgoType.NSK_ALGO_TYPE_MED.value;
         algoTypes += NskAlgoType.NSK_ALGO_TYPE_ATT.value;
@@ -306,7 +465,7 @@ public class ProfileActivity extends AppCompatActivity {
 //        showToast(sdkVersion, Toast.LENGTH_LONG);
     }
 
-    private short [] readData(InputStream is, int size) {
+    private short[] readData(InputStream is, int size) {
         short data[] = new short[size];
         int lineCount = 0;
         BufferedReader reader = new BufferedReader(new InputStreamReader(is));
@@ -376,6 +535,7 @@ public class ProfileActivity extends AppCompatActivity {
                     loadingDialog.dismiss();
                     showSnackbar("Connected");
                     nskAlgoSdk.NskAlgoStart(false);
+                    callAsynchronousTask();
                     break;
                 case ConnectionStates.STATE_WORKING:
                     // Do something when working
@@ -438,7 +598,7 @@ public class ProfileActivity extends AppCompatActivity {
         @Override
         public void onRecordFail(int flag) {
             // You can handle the record error message here
-            Log.e(TAG,"onRecordFail: " +flag);
+            Log.e(TAG, "onRecordFail: " + flag);
 
         }
 
@@ -454,19 +614,19 @@ public class ProfileActivity extends AppCompatActivity {
             //Log.i(TAG,"onDataReceived");
             switch (datatype) {
                 case MindDataType.CODE_ATTENTION:
-                    short attValue[] = {(short)data};
+                    short attValue[] = {(short) data};
                     nskAlgoSdk.NskAlgoDataStream(NskAlgoDataType.NSK_ALGO_DATA_TYPE_ATT.value, attValue, 1);
                     break;
                 case MindDataType.CODE_MEDITATION:
-                    short medValue[] = {(short)data};
+                    short medValue[] = {(short) data};
                     nskAlgoSdk.NskAlgoDataStream(NskAlgoDataType.NSK_ALGO_DATA_TYPE_MED.value, medValue, 1);
                     break;
                 case MindDataType.CODE_POOR_SIGNAL:
-                    short pqValue[] = {(short)data};
+                    short pqValue[] = {(short) data};
                     nskAlgoSdk.NskAlgoDataStream(NskAlgoDataType.NSK_ALGO_DATA_TYPE_PQ.value, pqValue, 1);
                     break;
                 case MindDataType.CODE_RAW:
-                    raw_data[raw_data_index++] = (short)data;
+                    raw_data[raw_data_index++] = (short) data;
                     if (raw_data_index == 512) {
                         nskAlgoSdk.NskAlgoDataStream(NskAlgoDataType.NSK_ALGO_DATA_TYPE_EEG.value, raw_data, raw_data_index);
                         raw_data_index = 0;
@@ -495,15 +655,21 @@ public class ProfileActivity extends AppCompatActivity {
 
     public void sendData() {
         RequestQueue queue = Volley.newRequestQueue(this);
-        String url = "http://5c8b765b.ngrok.io/api/storage/1?format=json";
+
+        Map<String, String> params = new HashMap<String, String>();
+        params.put("attention", String.valueOf(attention));
+        params.put("meditation", String.valueOf(calmness));
+        params.put("lat", String.valueOf(lat));
+        params.put("lng", String.valueOf(lng));
+        params.put("hr", String.valueOf(64));
 
         // Request a string response from the provided URL.
-        JsonObjectRequest jsonObjectRequest = new JsonObjectRequest(Request.Method.GET, url, null,
+        CustomRequest jsonObjectRequest = new CustomRequest(Request.Method.POST, SERVER_URL, params,
                 new Response.Listener<JSONObject>() {
                     @Override
                     public void onResponse(JSONObject response) {
 //                        try {
-                            Log.d(TAG, response.toString());
+                        Log.d(TAG, response.toString());
 //                        } catch (JSONException e) {
 //                            Log.e(TAG, e.getMessage());
 //                        }
@@ -511,10 +677,59 @@ public class ProfileActivity extends AppCompatActivity {
                 }, new Response.ErrorListener() {
             @Override
             public void onErrorResponse(VolleyError error) {
-                Log.e(TAG, error.getMessage());
+                Log.e(TAG, error.toString());
             }
         });
+        Log.d(TAG, jsonObjectRequest.getUrl());
         // Add the request to the RequestQueue.
         queue.add(jsonObjectRequest);
+    }
+
+    @Override
+    public void onConnected(Bundle bundle) {
+        if (ActivityCompat.checkSelfPermission(this, Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED && ActivityCompat.checkSelfPermission(this, Manifest.permission.ACCESS_COARSE_LOCATION) != PackageManager.PERMISSION_GRANTED) {
+
+        } else {
+            mLastLocation = LocationServices.FusedLocationApi.getLastLocation(mGAC);
+            if (mLastLocation != null) {
+                lat = mLastLocation.getLatitude();
+                lng = mLastLocation.getLongitude();
+            }
+        }
+    }
+
+    @Override
+    public void onConnectionSuspended(int i) {
+        showSnackbar("Connection suspended");
+    }
+
+    @Override
+    public void onConnectionFailed(@NonNull ConnectionResult connectionResult) {
+        showSnackbar("Failed to connect to Google API");
+    }
+
+    public void callAsynchronousTask() {
+        Timer timer = new Timer();
+        TimerTask doAsynchronousTask = new TimerTask() {
+            @Override
+            public void run() {
+                sendData();
+            }
+        };
+        timer.schedule(doAsynchronousTask, 0, REQUEST_INTERVAL); //execute in every 50000 ms
+    }
+
+
+    @Override
+    public void onNotify(int heartRate) {
+        this.heartRate = heartRate;
+        final String hr = heartRate + " bpm";
+        runOnUiThread(new Runnable() {
+            @Override
+            public void run() {
+                // change UI elements here
+                hrValue.setText(hr);
+            }
+        });
     }
 }
