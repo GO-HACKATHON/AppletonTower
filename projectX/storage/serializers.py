@@ -4,4 +4,4 @@ from storage.models import Item
 class FeedSerializer(serializers.HyperlinkedModelSerializer):
     class Meta:
         model = Item
-        fields = ('time', 'pollution', 'AQI', 'temp', 'humid', 'flood', 'hr', 'eeg', 'distance', 'duration')
+        fields = ('driver_id','time', 'pollution', 'AQI', 'temp', 'humid', 'flood', 'hr', 'meditation', 'medState', 'attention', 'attState', 'lat', 'lng', 'distance', 'duration', 'driverStatus', 'rest')

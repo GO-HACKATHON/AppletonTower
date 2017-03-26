@@ -30,6 +30,8 @@ urlpatterns = patterns('',
 """
 
 urlpatterns = [
+	url(r'^storage/', include('storage.urls')),
     url(r'^api/', include(router.urls)),
     url(r'^admin/', admin.site.urls),
+    # url(r'^get_data/$', 'storage.views.cerebro'),
 ]

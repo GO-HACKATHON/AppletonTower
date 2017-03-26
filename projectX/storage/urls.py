@@ -1,4 +1,4 @@
-from django.conf.urls import patterns, url, include
+from django.conf.urls import  url, include
 
 from rest_framework import routers
 from storage import views
@@ -6,7 +6,7 @@ from storage import views
 router = routers.DefaultRouter()
 router.register(r'feed', views.FeedViewSet)
 
-urlpatterns = patterns('',
-    #..... url lainnya disini...
+urlpatterns = [
+    url(r'^$', views.cerebro, name='cerebro'),
     url(r'^api/', include(router.urls)),
-)
+]
