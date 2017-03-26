@@ -1,0 +1,4791 @@
+{
+  "type": "FeatureCollection",
+  "totalFeatures": 177,
+  "features": [
+    {
+      "type": "Feature",
+      "id": "rumah_sakit_point.1",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.85538477849346,
+          -6.200224298534737
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "NAMA": "RS JANTUNG JAKARTA",
+        "ID_ASSET": "001317210000209001000",
+        "SECTOR": "SOSIAL DAN PERUMAHAN",
+        "SUBSECTOR": "KESEHATAN",
+        "ASSET": "RUMAH SAKIT",
+        "JALAN": "JL RAYA MATRAMAN NO 23",
+        "ID_KEL": "3172100002",
+        "KELURAHAN": "PAL MERIEM",
+        "AREA_M2": 1942,
+        "KECAMATAN": "MATRAMAN",
+        "KOTA": "JAKARTA TIMUR",
+        "RW": "002",
+        "ORIG_FID": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "rumah_sakit_point.2",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8601411624125,
+          -6.201823924294449
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "NAMA": "YAYASAN RS MOH HUSNI T",
+        "ID_ASSET": "001317210000215010000",
+        "SECTOR": "SOSIAL DAN PERUMAHAN",
+        "SUBSECTOR": "KESEHATAN",
+        "ASSET": "RUMAH SAKIT",
+        "JALAN": "JL TEGALAN NO 30",
+        "ID_KEL": "3172100002",
+        "KELURAHAN": "PAL MERIEM",
+        "AREA_M2": 445,
+        "KECAMATAN": "MATRAMAN",
+        "KOTA": "JAKARTA TIMUR",
+        "RW": "007",
+        "ORIG_FID": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "rumah_sakit_point.3",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.84516844829668,
+          -6.1965376395258875
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "NAMA": "RUMAH SAKIT CIPTO MANGUNKUSUMO",
+        "ID_ASSET": "001317302000202206000",
+        "SECTOR": "SOSIAL DAN PERUMAHAN",
+        "SUBSECTOR": "KESEHATAN",
+        "ASSET": "RUMAH SAKIT",
+        "JALAN": "JL KIMIA No. 43",
+        "ID_KEL": "3173020002",
+        "KELURAHAN": "PEGANGSAAN",
+        "AREA_M2": 14196,
+        "KECAMATAN": "MENTENG",
+        "KOTA": "JAKARTA PUSAT",
+        "RW": "001",
+        "ORIG_FID": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "rumah_sakit_point.4",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.84457787306327,
+          -6.196458821990758
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "NAMA": "RUMAH SAKIT CIPTO MANGUNKUSUMO",
+        "ID_ASSET": "001317302000202207000",
+        "SECTOR": "SOSIAL DAN PERUMAHAN",
+        "SUBSECTOR": "KESEHATAN",
+        "ASSET": "RUMAH SAKIT",
+        "JALAN": "JL KIMIA No. 49",
+        "ID_KEL": "3173020002",
+        "KELURAHAN": "PEGANGSAAN",
+        "AREA_M2": 1772,
+        "KECAMATAN": "MENTENG",
+        "KOTA": "JAKARTA PUSAT",
+        "RW": "001",
+        "ORIG_FID": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "rumah_sakit_point.5",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.84836444850157,
+          -6.2013418946993575
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "NAMA": "RS HADI WARNO,NY",
+        "ID_ASSET": "001317302000204177000",
+        "SECTOR": "SOSIAL DAN PERUMAHAN",
+        "SUBSECTOR": "KESEHATAN",
+        "ASSET": "RUMAH SAKIT",
+        "JALAN": "JL KALASAN No. 22",
+        "ID_KEL": "3173020002",
+        "KELURAHAN": "PEGANGSAAN",
+        "AREA_M2": 367,
+        "KECAMATAN": "MENTENG",
+        "KOTA": "JAKARTA PUSAT",
+        "RW": "002",
+        "ORIG_FID": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "rumah_sakit_point.6",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.85447635469818,
+          -6.203687469692019
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "NAMA": "RS SINT CAROLUS / MESS",
+        "ID_ASSET": "001317302000215126000",
+        "SECTOR": "SOSIAL DAN PERUMAHAN",
+        "SUBSECTOR": "KESEHATAN",
+        "ASSET": "RUMAH SAKIT",
+        "JALAN": "JL MATRAMAN DALAM II No.",
+        "ID_KEL": "3173020002",
+        "KELURAHAN": "PEGANGSAAN",
+        "AREA_M2": 217,
+        "KECAMATAN": "MENTENG",
+        "KOTA": "JAKARTA PUSAT",
+        "RW": "008",
+        "ORIG_FID": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "rumah_sakit_point.7",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8378199435528,
+          -6.187377687122017
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "NAMA": "PT MITRA MATA (RUMAH SAKIT)",
+        "ID_ASSET": "001317302000301029000",
+        "SECTOR": "SOSIAL DAN PERUMAHAN",
+        "SUBSECTOR": "KESEHATAN",
+        "ASSET": "RUMAH SAKIT",
+        "JALAN": "JL KALIPASIR PENGARENGAN NO 16",
+        "ID_KEL": "3173020003",
+        "KELURAHAN": "CIKINI",
+        "AREA_M2": 701,
+        "KECAMATAN": "MENTENG",
+        "KOTA": "JAKARTA PUSAT",
+        "RW": "001",
+        "ORIG_FID": 6
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "rumah_sakit_point.8",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.84081755406471,
+          -6.191184038178781
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "NAMA": "RUMAH SAKIT PGI CIKINI",
+        "ID_ASSET": "001317302000304019000",
+        "SECTOR": "SOSIAL DAN PERUMAHAN",
+        "SUBSECTOR": "KESEHATAN",
+        "ASSET": "RUMAH SAKIT",
+        "JALAN": "JL RADEN SALEH RAYA NO 47 A",
+        "ID_KEL": "3173020003",
+        "KELURAHAN": "CIKINI",
+        "AREA_M2": 0,
+        "KECAMATAN": "MENTENG",
+        "KOTA": "JAKARTA PUSAT",
+        "RW": "002",
+        "ORIG_FID": 7
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "rumah_sakit_point.9",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8278421682544,
+          -6.191414145698201
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "NAMA": "YAYASAN PEMELIHARAAN KESEHATAN",
+        "ID_ASSET": "001317302000405008000",
+        "SECTOR": "SOSIAL DAN PERUMAHAN",
+        "SUBSECTOR": "KESEHATAN",
+        "ASSET": "RUMAH SAKIT",
+        "JALAN": "JL LOMBOK No. 14",
+        "ID_KEL": "3173020004",
+        "KELURAHAN": "GONDANGDIA",
+        "AREA_M2": 1689,
+        "KECAMATAN": "MENTENG",
+        "KOTA": "JAKARTA PUSAT",
+        "RW": "005",
+        "ORIG_FID": 8
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "rumah_sakit_point.10",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8296653472361,
+          -6.191391310904669
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "NAMA": "YAYASAN KANKER INDONESIA",
+        "ID_ASSET": "001317302000408031000",
+        "SECTOR": "SOSIAL DAN PERUMAHAN",
+        "SUBSECTOR": "KESEHATAN",
+        "ASSET": "RUMAH SAKIT",
+        "JALAN": "JL SAMRATULANGI, DR No.  35",
+        "ID_KEL": "3173020004",
+        "KELURAHAN": "GONDANGDIA",
+        "AREA_M2": 879,
+        "KECAMATAN": "MENTENG",
+        "KOTA": "JAKARTA PUSAT",
+        "RW": "003",
+        "ORIG_FID": 9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "rumah_sakit_point.11",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.82985981619002,
+          -6.191306198992726
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "NAMA": "YAYASAN KANKER INDONESIA",
+        "ID_ASSET": "001317302000408036000",
+        "SECTOR": "SOSIAL DAN PERUMAHAN",
+        "SUBSECTOR": "KESEHATAN",
+        "ASSET": "RUMAH SAKIT",
+        "JALAN": "JL SAMRATULANGI, DR  No. 33",
+        "ID_KEL": "3173020004",
+        "KELURAHAN": "GONDANGDIA",
+        "AREA_M2": 770,
+        "KECAMATAN": "MENTENG",
+        "KOTA": "JAKARTA PUSAT",
+        "RW": "003",
+        "ORIG_FID": 10
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "rumah_sakit_point.12",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.83277786853091,
+          -6.18938623278036
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "NAMA": "YAYASAN JANTUNG SEHAT",
+        "ID_ASSET": "001317302000412012000",
+        "SECTOR": "SOSIAL DAN PERUMAHAN",
+        "SUBSECTOR": "KESEHATAN",
+        "ASSET": "RUMAH SAKIT",
+        "JALAN": "JL TEUKU UMAR No. 14",
+        "ID_KEL": "3173020004",
+        "KELURAHAN": "GONDANGDIA",
+        "AREA_M2": 2718,
+        "KECAMATAN": "MENTENG",
+        "KOTA": "JAKARTA PUSAT",
+        "RW": "001",
+        "ORIG_FID": 11
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "rumah_sakit_point.13",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.83278215377518,
+          -6.18909195308243
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "NAMA": "YAYASAN JANTUNG INDONESIA",
+        "ID_ASSET": "001317302000412013000",
+        "SECTOR": "SOSIAL DAN PERUMAHAN",
+        "SUBSECTOR": "KESEHATAN",
+        "ASSET": "RUMAH SAKIT",
+        "JALAN": "JL TEUKU UMAR  No. 12",
+        "ID_KEL": "3173020004",
+        "KELURAHAN": "GONDANGDIA",
+        "AREA_M2": 901,
+        "KECAMATAN": "MENTENG",
+        "KOTA": "JAKARTA PUSAT",
+        "RW": "001",
+        "ORIG_FID": 12
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "rumah_sakit_point.14",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.83514495601251,
+          -6.195169219129368
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "NAMA": "RS YAYASAN PANTI RAHARJA",
+        "ID_ASSET": "001317302000414015000",
+        "SECTOR": "SOSIAL DAN PERUMAHAN",
+        "SUBSECTOR": "KESEHATAN",
+        "ASSET": "RUMAH SAKIT",
+        "JALAN": "JL SAWO  No. 03",
+        "ID_KEL": "3173020004",
+        "KELURAHAN": "GONDANGDIA",
+        "AREA_M2": 999,
+        "KECAMATAN": "MENTENG",
+        "KOTA": "JAKARTA PUSAT",
+        "RW": "002",
+        "ORIG_FID": 13
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "rumah_sakit_point.15",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.82718573635064,
+          -6.186499421496033
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "NAMA": "RS. FATIMAH",
+        "ID_ASSET": "001317302000503135000",
+        "SECTOR": "SOSIAL DAN PERUMAHAN",
+        "SUBSECTOR": "KESEHATAN",
+        "ASSET": "RUMAH SAKIT",
+        "JALAN": "JL KEBON SIRIH BARAT IX 1",
+        "ID_KEL": "3173020005",
+        "KELURAHAN": "KEBON SIRIH",
+        "AREA_M2": 201,
+        "KECAMATAN": "MENTENG",
+        "KOTA": "JAKARTA PUSAT",
+        "RW": "004",
+        "ORIG_FID": 14
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "rumah_sakit_point.16",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.838654771444,
+          -6.186866148764491
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "NAMA": "RS MITRA MENTENG ABADI",
+        "ID_ASSET": "001317302000509345000",
+        "SECTOR": "SOSIAL DAN PERUMAHAN",
+        "SUBSECTOR": "KESEHATAN",
+        "ASSET": "RUMAH SAKIT",
+        "JALAN": "JL KALIPASIR GG TEMBOK  38",
+        "ID_KEL": "3173020005",
+        "KELURAHAN": "KEBON SIRIH",
+        "AREA_M2": 232,
+        "KECAMATAN": "MENTENG",
+        "KOTA": "JAKARTA PUSAT",
+        "RW": "010",
+        "ORIG_FID": 15
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "rumah_sakit_point.17",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.84387087485229,
+          -6.185704751085438
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "NAMA": "RUMAH SAKIT KRAMAT",
+        "ID_ASSET": "001317303000102060000",
+        "SECTOR": "SOSIAL DAN PERUMAHAN",
+        "SUBSECTOR": "KESEHATAN",
+        "ASSET": "RUMAH SAKIT",
+        "JALAN": "JL KERNOLONG I NO.120",
+        "ID_KEL": "3173030001",
+        "KELURAHAN": "KENARI",
+        "AREA_M2": 2552,
+        "KECAMATAN": "SENEN",
+        "KOTA": "JAKARTA PUSAT",
+        "RW": "008",
+        "ORIG_FID": 16
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "rumah_sakit_point.18",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.84419078554156,
+          -6.187470711716013
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "NAMA": "ZALEHA IBNU SUTOWO (RS. KULIT)",
+        "ID_ASSET": "001317303000104044000",
+        "SECTOR": "SOSIAL DAN PERUMAHAN",
+        "SUBSECTOR": "KESEHATAN",
+        "ASSET": "RUMAH SAKIT",
+        "JALAN": "JL KRAMAT V NO.6",
+        "ID_KEL": "3173030001",
+        "KELURAHAN": "KENARI",
+        "AREA_M2": 2374,
+        "KECAMATAN": "SENEN",
+        "KOTA": "JAKARTA PUSAT",
+        "RW": "009",
+        "ORIG_FID": 17
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "rumah_sakit_point.19",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.84177716773232,
+          -6.189353788735931
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "NAMA": "YAYASAN BINA WICARA",
+        "ID_ASSET": "001317303000107003000",
+        "SECTOR": "SOSIAL DAN PERUMAHAN",
+        "SUBSECTOR": "KESEHATAN",
+        "ASSET": "RUMAH SAKIT",
+        "JALAN": "JL KRAMAT VI NO.44",
+        "ID_KEL": "3173030001",
+        "KELURAHAN": "KENARI",
+        "AREA_M2": 410,
+        "KECAMATAN": "SENEN",
+        "KOTA": "JAKARTA PUSAT",
+        "RW": "009",
+        "ORIG_FID": 18
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "rumah_sakit_point.20",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.84663875343044,
+          -6.191749979247999
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "NAMA": "RUMAH SAKIT AD KODAM V JAYA",
+        "ID_ASSET": "001317303000111025000",
+        "SECTOR": "SOSIAL DAN PERUMAHAN",
+        "SUBSECTOR": "KESEHATAN",
+        "ASSET": "RUMAH SAKIT",
+        "JALAN": "JL KRAMAT RAYA NO.150",
+        "ID_KEL": "3173030001",
+        "KELURAHAN": "KENARI",
+        "AREA_M2": 14286,
+        "KECAMATAN": "SENEN",
+        "KOTA": "JAKARTA PUSAT",
+        "RW": "003",
+        "ORIG_FID": 19
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "rumah_sakit_point.21",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.84667002372646,
+          -6.196569086039347
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "NAMA": "RSUP CIPTO MANGUNKUSUMO",
+        "ID_ASSET": "001317303000120091000",
+        "SECTOR": "SOSIAL DAN PERUMAHAN",
+        "SUBSECTOR": "KESEHATAN",
+        "ASSET": "RUMAH SAKIT",
+        "JALAN": "JL. PANGERAN DIPONEGORO",
+        "ID_KEL": "3173030001",
+        "KELURAHAN": "KENARI",
+        "AREA_M2": 0,
+        "KECAMATAN": "SENEN",
+        "KOTA": "JAKARTA PUSAT",
+        "RW": "005",
+        "ORIG_FID": 20
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "rumah_sakit_point.22",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8507255231137,
+          -6.199209683423746
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "NAMA": "RS. SS MEDIKA",
+        "ID_ASSET": "001317303000121047000",
+        "SECTOR": "SOSIAL DAN PERUMAHAN",
+        "SUBSECTOR": "KESEHATAN",
+        "ASSET": "RUMAH SAKIT",
+        "JALAN": "JL SALEMBA RAYA I NO.13",
+        "ID_KEL": "3173030001",
+        "KELURAHAN": "KENARI",
+        "AREA_M2": 319,
+        "KECAMATAN": "SENEN",
+        "KOTA": "JAKARTA PUSAT",
+        "RW": "006",
+        "ORIG_FID": 21
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "rumah_sakit_point.23",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.85325220639447,
+          -6.192880386787987
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "NAMA": "YAYASAN ILOMATA",
+        "ID_ASSET": "001317303000207155000",
+        "SECTOR": "SOSIAL DAN PERUMAHAN",
+        "SUBSECTOR": "KESEHATAN",
+        "ASSET": "RUMAH SAKIT",
+        "JALAN": "JL SALEMBA TENGAH",
+        "ID_KEL": "3173030002",
+        "KELURAHAN": "PASEBAN",
+        "AREA_M2": 247,
+        "KECAMATAN": "SENEN",
+        "KOTA": "JAKARTA PUSAT",
+        "RW": "003",
+        "ORIG_FID": 22
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "rumah_sakit_point.24",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8521153869037,
+          -6.193682175074181
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "NAMA": "YAYASAN RS MOH HUSNI THAMRIN",
+        "ID_ASSET": "001317303000211015000",
+        "SECTOR": "SOSIAL DAN PERUMAHAN",
+        "SUBSECTOR": "KESEHATAN",
+        "ASSET": "RUMAH SAKIT",
+        "JALAN": "JL SALEMBA TENGAH",
+        "ID_KEL": "3173030002",
+        "KELURAHAN": "PASEBAN",
+        "AREA_M2": 3038,
+        "KECAMATAN": "SENEN",
+        "KOTA": "JAKARTA PUSAT",
+        "RW": "004",
+        "ORIG_FID": 23
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "rumah_sakit_point.25",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.85538435951088,
+          -6.194583823835451
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "NAMA": "RS PRAMONTJO SUHARDJO",
+        "ID_ASSET": "001317303000214030000",
+        "SECTOR": "SOSIAL DAN PERUMAHAN",
+        "SUBSECTOR": "KESEHATAN",
+        "ASSET": "RUMAH SAKIT",
+        "JALAN": "JL SALEMBA TENGAH VII",
+        "ID_KEL": "3173030002",
+        "KELURAHAN": "PASEBAN",
+        "AREA_M2": 220,
+        "KECAMATAN": "SENEN",
+        "KOTA": "JAKARTA PUSAT",
+        "RW": "008",
+        "ORIG_FID": 24
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "rumah_sakit_point.26",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.84607103134827,
+          -6.180395429267305
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "NAMA": "RS GATOT SUBROTO CS",
+        "ID_ASSET": "001317303000309136000",
+        "SECTOR": "SOSIAL DAN PERUMAHAN",
+        "SUBSECTOR": "KESEHATAN",
+        "ASSET": "RUMAH SAKIT",
+        "JALAN": "JL BUNGA RAYA",
+        "ID_KEL": "3173030003",
+        "KELURAHAN": "KRAMAT",
+        "AREA_M2": 319,
+        "KECAMATAN": "SENEN",
+        "KOTA": "JAKARTA PUSAT",
+        "RW": "001",
+        "ORIG_FID": 25
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "rumah_sakit_point.27",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.83708408238182,
+          -6.176553432703078
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "NAMA": "RSPAD",
+        "ID_ASSET": "001317303000501002000",
+        "SECTOR": "SOSIAL DAN PERUMAHAN",
+        "SUBSECTOR": "KESEHATAN",
+        "ASSET": "RUMAH SAKIT",
+        "JALAN": "JL ABDUL RAHMAN SALEH, DR",
+        "ID_KEL": "3173030005",
+        "KELURAHAN": "SENEN",
+        "AREA_M2": 0,
+        "KECAMATAN": "SENEN",
+        "KOTA": "JAKARTA PUSAT",
+        "RW": "005",
+        "ORIG_FID": 26
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "rumah_sakit_point.28",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.83856363964702,
+          -6.177686290488163
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "NAMA": "FLAT DOKTER RSPAD",
+        "ID_ASSET": "001317303000506079000",
+        "SECTOR": "SOSIAL DAN PERUMAHAN",
+        "SUBSECTOR": "KESEHATAN",
+        "ASSET": "RUMAH SAKIT",
+        "JALAN": "JL RADEN RAHMAN SALEH",
+        "ID_KEL": "3173030005",
+        "KELURAHAN": "SENEN",
+        "AREA_M2": 2255,
+        "KECAMATAN": "SENEN",
+        "KOTA": "JAKARTA PUSAT",
+        "RW": "001",
+        "ORIG_FID": 27
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "rumah_sakit_point.29",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.83983124851585,
+          -6.176566049510809
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "NAMA": "RSPAD",
+        "ID_ASSET": "001317303000507028000",
+        "SECTOR": "SOSIAL DAN PERUMAHAN",
+        "SUBSECTOR": "KESEHATAN",
+        "ASSET": "RUMAH SAKIT",
+        "JALAN": "JL SENEN RAYA",
+        "ID_KEL": "3173030005",
+        "KELURAHAN": "SENEN",
+        "AREA_M2": 686,
+        "KECAMATAN": "SENEN",
+        "KOTA": "JAKARTA PUSAT",
+        "RW": "001",
+        "ORIG_FID": 28
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "rumah_sakit_point.30",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8544497531379,
+          -6.183627487865148
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "NAMA": "RS DHARMA KASIH",
+        "ID_ASSET": "001317304000110043000",
+        "SECTOR": "SOSIAL DAN PERUMAHAN",
+        "SUBSECTOR": "KESEHATAN",
+        "ASSET": "RUMAH SAKIT",
+        "JALAN": "JL KRAMAT JAYA BARU NO H III/423",
+        "ID_KEL": "3173040001",
+        "KELURAHAN": "JOHAR BARU",
+        "AREA_M2": 4681,
+        "KECAMATAN": "JOHAR BARU",
+        "KOTA": "JAKARTA PUSAT",
+        "RW": "010",
+        "ORIG_FID": 29
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "rumah_sakit_point.31",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.85120718979232,
+          -6.177459005231218
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "NAMA": "YAYASAN PPTI (POLIKLINIK)",
+        "ID_ASSET": "001317304000310019000",
+        "SECTOR": "SOSIAL DAN PERUMAHAN",
+        "SUBSECTOR": "KESEHATAN",
+        "ASSET": "RUMAH SAKIT",
+        "JALAN": "JL BALADEWA NO.34",
+        "ID_KEL": "3173040003",
+        "KELURAHAN": "TANAH TINGGI",
+        "AREA_M2": 478,
+        "KECAMATAN": "JOHAR BARU",
+        "KOTA": "JAKARTA PUSAT",
+        "RW": "005",
+        "ORIG_FID": 30
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "rumah_sakit_point.32",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.87092878082076,
+          -6.171992622749984
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "NAMA": "RS.ISLAM JAKARTA (ASRAMA PUTRI)",
+        "ID_ASSET": "001317305000205081000",
+        "SECTOR": "SOSIAL DAN PERUMAHAN",
+        "SUBSECTOR": "KESEHATAN",
+        "ASSET": "RUMAH SAKIT",
+        "JALAN": "JL.CEMPAKA PUTIH 6",
+        "ID_KEL": "3173050002",
+        "KELURAHAN": "CEMPAKA PUTIH TIMUR",
+        "AREA_M2": 3256,
+        "KECAMATAN": "CEMPAKA PUTIH",
+        "KOTA": "JAKARTA PUSAT",
+        "RW": "005",
+        "ORIG_FID": 31
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "rumah_sakit_point.33",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.87123308073723,
+          -6.171257327899993
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "NAMA": "RS ISLAM JAKARTA",
+        "ID_ASSET": "001317305000205105000",
+        "SECTOR": "SOSIAL DAN PERUMAHAN",
+        "SUBSECTOR": "KESEHATAN",
+        "ASSET": "RUMAH SAKIT",
+        "JALAN": "JL CEMPAKA PUTIH TENGAH I 1",
+        "ID_KEL": "3173050002",
+        "KELURAHAN": "CEMPAKA PUTIH TIMUR",
+        "AREA_M2": 23995,
+        "KECAMATAN": "CEMPAKA PUTIH",
+        "KOTA": "JAKARTA PUSAT",
+        "RW": "005",
+        "ORIG_FID": 32
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "rumah_sakit_point.34",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.83766352017885,
+          -6.1635984282323175
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "NAMA": "YAYASAN SOSIAL BHUMYAMCA/TNI-AL",
+        "ID_ASSET": "001317307000120135000",
+        "SECTOR": "SOSIAL DAN PERUMAHAN",
+        "SUBSECTOR": "KESEHATAN",
+        "ASSET": "RUMAH SAKIT",
+        "JALAN": "JL PASAR BARU SELATAN NO. 28",
+        "ID_KEL": "3173070001",
+        "KELURAHAN": "PASAR BARU",
+        "AREA_M2": 603,
+        "KECAMATAN": "SAWAH BESAR",
+        "KOTA": "JAKARTA PUSAT",
+        "RW": "004",
+        "ORIG_FID": 33
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "rumah_sakit_point.35",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8291385313521,
+          -6.146566343749207
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "NAMA": "RUMAH SAKIT HUSADA",
+        "ID_ASSET": "001317307000525059000",
+        "SECTOR": "SOSIAL DAN PERUMAHAN",
+        "SUBSECTOR": "KESEHATAN",
+        "ASSET": "RUMAH SAKIT",
+        "JALAN": "LJ. JEMBATAN MERAH NO. 137-139",
+        "ID_KEL": "3173070005",
+        "KELURAHAN": "MANGGA DUA SELATAN",
+        "AREA_M2": 0,
+        "KECAMATAN": "SAWAH BESAR",
+        "KOTA": "JAKARTA PUSAT",
+        "RW": "001",
+        "ORIG_FID": 34
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "rumah_sakit_point.36",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.81034013986982,
+          -6.1715414540062365
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "NAMA": "RS UMUM DAERAH TARAKAN",
+        "ID_ASSET": "001317308000113015000",
+        "SECTOR": "SOSIAL DAN PERUMAHAN",
+        "SUBSECTOR": "KESEHATAN",
+        "ASSET": "RUMAH SAKIT",
+        "JALAN": "JL. BIAK NO. A 7 A",
+        "ID_KEL": "3173080001",
+        "KELURAHAN": "CIDENG",
+        "AREA_M2": 5795,
+        "KECAMATAN": "GAMBIR",
+        "KOTA": "JAKARTA PUSAT",
+        "RW": "004",
+        "ORIG_FID": 35
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "rumah_sakit_point.37",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.81053852524558,
+          -6.172251243501618
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "NAMA": "R,S, TARAKAN.",
+        "ID_ASSET": "001317308000114006000",
+        "SECTOR": "SOSIAL DAN PERUMAHAN",
+        "SUBSECTOR": "KESEHATAN",
+        "ASSET": "RUMAH SAKIT",
+        "JALAN": "JL CIDENG BARAT NO. 33",
+        "ID_KEL": "3173080001",
+        "KELURAHAN": "CIDENG",
+        "AREA_M2": 3082,
+        "KECAMATAN": "GAMBIR",
+        "KOTA": "JAKARTA PUSAT",
+        "RW": "002",
+        "ORIG_FID": 36
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "rumah_sakit_point.38",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.82009358114684,
+          -6.180154721193001
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "NAMA": "RS BERSALIN ANGKASA TNI AU",
+        "ID_ASSET": "001317308000302008000",
+        "SECTOR": "SOSIAL DAN PERUMAHAN",
+        "SUBSECTOR": "KESEHATAN",
+        "ASSET": "RUMAH SAKIT",
+        "JALAN": "JL BUDI KEMULIAAN",
+        "ID_KEL": "3173080003",
+        "KELURAHAN": "GAMBIR",
+        "AREA_M2": 601,
+        "KECAMATAN": "GAMBIR",
+        "KOTA": "JAKARTA PUSAT",
+        "RW": "004",
+        "ORIG_FID": 37
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "rumah_sakit_point.39",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.81812639763685,
+          -6.180823148283542
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "NAMA": "RS BERSALIN BUDI KEMULIAAN",
+        "ID_ASSET": "001317308000302024000",
+        "SECTOR": "SOSIAL DAN PERUMAHAN",
+        "SUBSECTOR": "KESEHATAN",
+        "ASSET": "RUMAH SAKIT",
+        "JALAN": "JL BUDI KEMULIAAN",
+        "ID_KEL": "3173080003",
+        "KELURAHAN": "GAMBIR",
+        "AREA_M2": 15649,
+        "KECAMATAN": "GAMBIR",
+        "KOTA": "JAKARTA PUSAT",
+        "RW": "004",
+        "ORIG_FID": 38
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "rumah_sakit_point.40",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.83623362224901,
+          -6.1783847136110435
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "NAMA": "RS GATOT SUBROTO",
+        "ID_ASSET": "001317308000304203000",
+        "SECTOR": "SOSIAL DAN PERUMAHAN",
+        "SUBSECTOR": "KESEHATAN",
+        "ASSET": "RUMAH SAKIT",
+        "JALAN": "JL BATU KP RW 1",
+        "ID_KEL": "3173080003",
+        "KELURAHAN": "GAMBIR",
+        "AREA_M2": 7150,
+        "KECAMATAN": "GAMBIR",
+        "KOTA": "JAKARTA PUSAT",
+        "RW": "001",
+        "ORIG_FID": 39
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "rumah_sakit_point.41",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.81559894688645,
+          -6.1646936791363816
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "NAMA": "YAYASAN BUNDA HATI KUDUS",
+        "ID_ASSET": "001317308000518148000",
+        "SECTOR": "SOSIAL DAN PERUMAHAN",
+        "SUBSECTOR": "KESEHATAN",
+        "ASSET": "RUMAH SAKIT",
+        "JALAN": "JL. KH. HASYIM ASYHARI NO. 28",
+        "ID_KEL": "3173080005",
+        "KELURAHAN": "PETOJO UTARA",
+        "AREA_M2": 608,
+        "KECAMATAN": "GAMBIR",
+        "KOTA": "JAKARTA PUSAT",
+        "RW": "002",
+        "ORIG_FID": 40
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "rumah_sakit_point.42",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.81025575391502,
+          -6.16303831281458
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "NAMA": "RS BUDI KEMULIAAN",
+        "ID_ASSET": "001317308000621088000",
+        "SECTOR": "SOSIAL DAN PERUMAHAN",
+        "SUBSECTOR": "KESEHATAN",
+        "ASSET": "RUMAH SAKIT",
+        "JALAN": "JL. CIDENG BARAT    NO.11",
+        "ID_KEL": "3173080006",
+        "KELURAHAN": "DURI PULO",
+        "AREA_M2": 479,
+        "KECAMATAN": "GAMBIR",
+        "KOTA": "JAKARTA PUSAT",
+        "RW": "001",
+        "ORIG_FID": 41
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "rumah_sakit_point.43",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.79268536611207,
+          -6.197285037247849
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "NAMA": "R S PATRIA IKKT",
+        "ID_ASSET": "001317403000129033000",
+        "SECTOR": "SOSIAL DAN PERUMAHAN",
+        "SUBSECTOR": "KESEHATAN",
+        "ASSET": "RUMAH SAKIT",
+        "JALAN": "JL KOM MABES TNI",
+        "ID_KEL": "3174030001",
+        "KELURAHAN": "PALMERAH",
+        "AREA_M2": 4618,
+        "KECAMATAN": "PALMERAH",
+        "KOTA": "JAKARTA BARAT",
+        "RW": "002",
+        "ORIG_FID": 42
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "rumah_sakit_point.44",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.79479860307589,
+          -6.201536849098232
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "NAMA": "RUMAH SAKIT BERSALIN ST MARIA REGINA",
+        "ID_ASSET": "001317403000160194000",
+        "SECTOR": "SOSIAL DAN PERUMAHAN",
+        "SUBSECTOR": "KESEHATAN",
+        "ASSET": "RUMAH SAKIT",
+        "JALAN": "JL PAKEMBANGAN BARAT\\PALMERAH UTARA",
+        "ID_KEL": "3174030001",
+        "KELURAHAN": "PALMERAH",
+        "AREA_M2": 4814,
+        "KECAMATAN": "PALMERAH",
+        "KOTA": "JAKARTA BARAT",
+        "RW": "005",
+        "ORIG_FID": 43
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "rumah_sakit_point.45",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8040608965939,
+          -6.193176616821167
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "NAMA": "RS PELNI PETAMBURAN",
+        "ID_ASSET": "001317403000207086000",
+        "SECTOR": "SOSIAL DAN PERUMAHAN",
+        "SUBSECTOR": "KESEHATAN",
+        "ASSET": "RUMAH SAKIT",
+        "JALAN": "JL KS TUBUN  NO",
+        "ID_KEL": "3174030002",
+        "KELURAHAN": "SLIPI",
+        "AREA_M2": 0,
+        "KECAMATAN": "PALMERAH",
+        "KOTA": "JAKARTA BARAT",
+        "RW": "001",
+        "ORIG_FID": 44
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "rumah_sakit_point.46",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.80056616416574,
+          -6.199535629740804
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "NAMA": "RS. BHAKTI MULIA",
+        "ID_ASSET": "001317403000215065000",
+        "SECTOR": "SOSIAL DAN PERUMAHAN",
+        "SUBSECTOR": "KESEHATAN",
+        "ASSET": "RUMAH SAKIT",
+        "JALAN": "JL AIPDA KS TUBUN NO",
+        "ID_KEL": "3174030002",
+        "KELURAHAN": "SLIPI",
+        "AREA_M2": 5575,
+        "KECAMATAN": "PALMERAH",
+        "KOTA": "JAKARTA BARAT",
+        "RW": "005",
+        "ORIG_FID": 45
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "rumah_sakit_point.47",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.79918955087153,
+          -6.184845709230322
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "NAMA": "RSAB 'HARAPAN KITA'",
+        "ID_ASSET": "001317403000401016000",
+        "SECTOR": "SOSIAL DAN PERUMAHAN",
+        "SUBSECTOR": "KESEHATAN",
+        "ASSET": "RUMAH SAKIT",
+        "JALAN": "JL KOTA BAMBU SELATAN NO.KAV. 87",
+        "ID_KEL": "3174030004",
+        "KELURAHAN": "KOTA BAMBU UTARA",
+        "AREA_M2": 0,
+        "KECAMATAN": "PALMERAH",
+        "KOTA": "JAKARTA BARAT",
+        "RW": "008",
+        "ORIG_FID": 46
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "rumah_sakit_point.48",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.79806341553328,
+          -6.187046867689249
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "NAMA": "RS KANKER DHARMAIS",
+        "ID_ASSET": "001317403000501001000",
+        "SECTOR": "SOSIAL DAN PERUMAHAN",
+        "SUBSECTOR": "KESEHATAN",
+        "ASSET": "RUMAH SAKIT",
+        "JALAN": "JL.S PARMAN NO.84-86",
+        "ID_KEL": "3174030005",
+        "KELURAHAN": "KOTA BAMBU SELATAN",
+        "AREA_M2": 0,
+        "KECAMATAN": "PALMERAH",
+        "KOTA": "JAKARTA BARAT",
+        "RW": "009",
+        "ORIG_FID": 47
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "rumah_sakit_point.49",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.80193192956791,
+          -6.139420094173977
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "NAMA": "YAYASAN JANTUNG",
+        "ID_ASSET": "001317405001117066000",
+        "SECTOR": "SOSIAL DAN PERUMAHAN",
+        "SUBSECTOR": "KESEHATAN",
+        "ASSET": "RUMAH SAKIT",
+        "JALAN": "KP JANIS NO.24",
+        "ID_KEL": "3174050011",
+        "KELURAHAN": "PEKOJAN",
+        "AREA_M2": 98,
+        "KECAMATAN": "TAMBORA",
+        "KOTA": "JAKARTA BARAT",
+        "RW": "008",
+        "ORIG_FID": 48
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "rumah_sakit_point.50",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.80317860349776,
+          -6.138827245015481
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "NAMA": "RS BUDI KEMULIAAN",
+        "ID_ASSET": "001317405001129033000",
+        "SECTOR": "SOSIAL DAN PERUMAHAN",
+        "SUBSECTOR": "KESEHATAN",
+        "ASSET": "RUMAH SAKIT",
+        "JALAN": "JL MASJID PEKOJAN NO.44-49",
+        "ID_KEL": "3174050011",
+        "KELURAHAN": "PEKOJAN",
+        "AREA_M2": 210,
+        "KECAMATAN": "TAMBORA",
+        "KOTA": "JAKARTA BARAT",
+        "RW": "003",
+        "ORIG_FID": 49
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "rumah_sakit_point.51",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.80318389960733,
+          -6.138870112022914
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "NAMA": "RS. BUDI KEMULIAAN PEKOJAN",
+        "ID_ASSET": "001317405001129034000",
+        "SECTOR": "SOSIAL DAN PERUMAHAN",
+        "SUBSECTOR": "KESEHATAN",
+        "ASSET": "RUMAH SAKIT",
+        "JALAN": "JL MASJID PEKOJAN NO.",
+        "ID_KEL": "3174050011",
+        "KELURAHAN": "PEKOJAN",
+        "AREA_M2": 236,
+        "KECAMATAN": "TAMBORA",
+        "KOTA": "JAKARTA BARAT",
+        "RW": "003",
+        "ORIG_FID": 50
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "rumah_sakit_point.52",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.81716567808911,
+          -6.158005079064183
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "NAMA": "YAYASAN AKUPUNTUR UMUM/ TJHAN HENG LAN",
+        "ID_ASSET": "001317406000109076000",
+        "SECTOR": "SOSIAL DAN PERUMAHAN",
+        "SUBSECTOR": "KESEHATAN",
+        "ASSET": "RUMAH SAKIT",
+        "JALAN": "JL KETAPANG UTARA DALAM NO 79",
+        "ID_KEL": "3174060001",
+        "KELURAHAN": "KRUKUT",
+        "AREA_M2": 95,
+        "KECAMATAN": "TAMANSARI",
+        "KOTA": "JAKARTA BARAT",
+        "RW": "007",
+        "ORIG_FID": 51
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "rumah_sakit_point.53",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.81673949211257,
+          -6.159043088239716
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "NAMA": "YAYASAN AKUPUNTUR UMUM",
+        "ID_ASSET": "001317406000110212000",
+        "SECTOR": "SOSIAL DAN PERUMAHAN",
+        "SUBSECTOR": "KESEHATAN",
+        "ASSET": "RUMAH SAKIT",
+        "JALAN": "JL KETAPANG UTARA I DALAM NO 21",
+        "ID_KEL": "3174060001",
+        "KELURAHAN": "KRUKUT",
+        "AREA_M2": 1764,
+        "KECAMATAN": "TAMANSARI",
+        "KOTA": "JAKARTA BARAT",
+        "RW": "007",
+        "ORIG_FID": 52
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "rumah_sakit_point.54",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.73346899529095,
+          -6.123594032891303
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "NAMA": "YAYASAN IKM / KLINIK KAYU BESAR",
+        "ID_ASSET": "001317407000501095000",
+        "SECTOR": "SOSIAL DAN PERUMAHAN",
+        "SUBSECTOR": "KESEHATAN",
+        "ASSET": "RUMAH SAKIT",
+        "JALAN": "JL KAYU BESAR",
+        "ID_KEL": "3174070005",
+        "KELURAHAN": "CENGKARENG TIMUR",
+        "AREA_M2": 199,
+        "KECAMATAN": "CENGKARENG",
+        "KOTA": "JAKARTA BARAT",
+        "RW": "011",
+        "ORIG_FID": 53
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "rumah_sakit_point.55",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.73487901136073,
+          -6.1429308675328205
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "NAMA": "RSUD,CENGKARENG",
+        "ID_ASSET": "001317407000521001000",
+        "SECTOR": "SOSIAL DAN PERUMAHAN",
+        "SUBSECTOR": "KESEHATAN",
+        "ASSET": "RUMAH SAKIT",
+        "JALAN": "JL TAMAN PALEM",
+        "ID_KEL": "3174070005",
+        "KELURAHAN": "CENGKARENG TIMUR",
+        "AREA_M2": 26788,
+        "KECAMATAN": "CENGKARENG",
+        "KOTA": "JAKARTA BARAT",
+        "RW": "010",
+        "ORIG_FID": 54
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "rumah_sakit_point.56",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.73915126342924,
+          -6.122681455856146
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "NAMA": "RS. GRAND FAMILY",
+        "ID_ASSET": "001317501000109006000",
+        "SECTOR": "SOSIAL DAN PERUMAHAN",
+        "SUBSECTOR": "KESEHATAN",
+        "ASSET": "RUMAH SAKIT",
+        "JALAN": "JL. PANTAI INDAH",
+        "ID_KEL": "3175010001",
+        "KELURAHAN": "KAMAL MUARA",
+        "AREA_M2": 22745,
+        "KECAMATAN": "PENJARINGAN",
+        "KOTA": "JAKARTA UTARA",
+        "RW": "003",
+        "ORIG_FID": 55
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "rumah_sakit_point.57",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.75302873485259,
+          -6.111894977039962
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "NAMA": "RSPIK",
+        "ID_ASSET": "001317501000209285000",
+        "SECTOR": "SOSIAL DAN PERUMAHAN",
+        "SUBSECTOR": "KESEHATAN",
+        "ASSET": "RUMAH SAKIT",
+        "JALAN": "JL. PANTAI INDAH KAPUK NO.",
+        "ID_KEL": "3175010002",
+        "KELURAHAN": "KAPUK MUARA",
+        "AREA_M2": 19379,
+        "KECAMATAN": "PENJARINGAN",
+        "KOTA": "JAKARTA UTARA",
+        "RW": "007",
+        "ORIG_FID": 56
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "rumah_sakit_point.58",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.79030049146381,
+          -6.133507519271419
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "NAMA": "RUMAH SAKIT IBU DAN ANAK / FAMILI",
+        "ID_ASSET": "001317501000348145000",
+        "SECTOR": "SOSIAL DAN PERUMAHAN",
+        "SUBSECTOR": "KESEHATAN",
+        "ASSET": "RUMAH SAKIT",
+        "JALAN": "JL. PLUIT MAS 1 NO.",
+        "ID_KEL": "3175010003",
+        "KELURAHAN": "PEJAGALAN",
+        "AREA_M2": 1677,
+        "KECAMATAN": "PENJARINGAN",
+        "KOTA": "JAKARTA UTARA",
+        "RW": "018",
+        "ORIG_FID": 57
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "rumah_sakit_point.59",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7910501168789,
+          -6.133534038236341
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "NAMA": "YAYASAN BUNDA ASIH KLINIK ELISABET",
+        "ID_ASSET": "001317501000348158000",
+        "SECTOR": "SOSIAL DAN PERUMAHAN",
+        "SUBSECTOR": "KESEHATAN",
+        "ASSET": "RUMAH SAKIT",
+        "JALAN": "JL. PLUIT MAS RAYA NO. EE/12-14",
+        "ID_KEL": "3175010003",
+        "KELURAHAN": "PEJAGALAN",
+        "AREA_M2": 354,
+        "KECAMATAN": "PENJARINGAN",
+        "KOTA": "JAKARTA UTARA",
+        "RW": "018",
+        "ORIG_FID": 58
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "rumah_sakit_point.60",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.78465202775193,
+          -6.125255904599397
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "NAMA": "YAYASAN SRI SATHYA SAI BABA",
+        "ID_ASSET": "001317501000533204000",
+        "SECTOR": "SOSIAL DAN PERUMAHAN",
+        "SUBSECTOR": "KESEHATAN",
+        "ASSET": "RUMAH SAKIT",
+        "JALAN": "JL PLUIT SELATAN RAYA NO. 46",
+        "ID_KEL": "3175010005",
+        "KELURAHAN": "PLUIT",
+        "AREA_M2": 1686,
+        "KECAMATAN": "PENJARINGAN",
+        "KOTA": "JAKARTA UTARA",
+        "RW": "007",
+        "ORIG_FID": 59
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "rumah_sakit_point.61",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.86154393414786,
+          -6.138885463293993
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "NAMA": "RUMAH SAKIT SATYA NEGARA",
+        "ID_ASSET": "001317503000145079000",
+        "SECTOR": "SOSIAL DAN PERUMAHAN",
+        "SUBSECTOR": "KESEHATAN",
+        "ASSET": "RUMAH SAKIT",
+        "JALAN": "JL AGUNG UTARA RAYA",
+        "ID_KEL": "3175030001",
+        "KELURAHAN": "SUNTER AGUNG",
+        "AREA_M2": 2849,
+        "KECAMATAN": "TANJUNG PRIOK",
+        "KOTA": "JAKARTA UTARA",
+        "RW": "018",
+        "ORIG_FID": 60
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "rumah_sakit_point.62",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.86549839122257,
+          -6.139450631277703
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "NAMA": "RS MEDIKA",
+        "ID_ASSET": "001317503000171150000",
+        "SECTOR": "SOSIAL DAN PERUMAHAN",
+        "SUBSECTOR": "KESEHATAN",
+        "ASSET": "RUMAH SAKIT",
+        "JALAN": "JL DANAU SUNTER UTARA",
+        "ID_KEL": "3175030001",
+        "KELURAHAN": "SUNTER AGUNG",
+        "AREA_M2": 5332,
+        "KECAMATAN": "TANJUNG PRIOK",
+        "KOTA": "JAKARTA UTARA",
+        "RW": "012",
+        "ORIG_FID": 61
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "rumah_sakit_point.63",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.86164589627987,
+          -6.145497049436919
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "NAMA": "RS HERMINA",
+        "ID_ASSET": "001317503000190208000",
+        "SECTOR": "SOSIAL DAN PERUMAHAN",
+        "SUBSECTOR": "KESEHATAN",
+        "ASSET": "RUMAH SAKIT",
+        "JALAN": "JL DANAU AGUNG II BLK E3/107",
+        "ID_KEL": "3175030001",
+        "KELURAHAN": "SUNTER AGUNG",
+        "AREA_M2": 2395,
+        "KECAMATAN": "TANJUNG PRIOK",
+        "KOTA": "JAKARTA UTARA",
+        "RW": "016",
+        "ORIG_FID": 62
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "rumah_sakit_point.64",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.87822870282221,
+          -6.11642123991069
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "NAMA": "RUMAH SAKIT SWASTA",
+        "ID_ASSET": "001317503000420075000",
+        "SECTOR": "SOSIAL DAN PERUMAHAN",
+        "SUBSECTOR": "KESEHATAN",
+        "ASSET": "RUMAH SAKIT",
+        "JALAN": "WARAKAS I",
+        "ID_KEL": "3175030004",
+        "KELURAHAN": "WARAKAS",
+        "AREA_M2": 378,
+        "KECAMATAN": "TANJUNG PRIOK",
+        "KOTA": "JAKARTA UTARA",
+        "RW": "001",
+        "ORIG_FID": 63
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "rumah_sakit_point.65",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.88944226657405,
+          -6.110401544494866
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "NAMA": "RUMAH SAKIT PELABUHAN",
+        "ID_ASSET": "001317503000721045000",
+        "SECTOR": "SOSIAL DAN PERUMAHAN",
+        "SUBSECTOR": "KESEHATAN",
+        "ASSET": "RUMAH SAKIT",
+        "JALAN": "JL ENGGANO",
+        "ID_KEL": "3175030007",
+        "KELURAHAN": "TANJUNG PRIUK",
+        "AREA_M2": 2014,
+        "KECAMATAN": "TANJUNG PRIOK",
+        "KOTA": "JAKARTA UTARA",
+        "RW": "016",
+        "ORIG_FID": 64
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "rumah_sakit_point.66",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.90827886305881,
+          -6.131199040464662
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "NAMA": "YAYASAN BERSALIN",
+        "ID_ASSET": "001317504000227023000",
+        "SECTOR": "SOSIAL DAN PERUMAHAN",
+        "SUBSECTOR": "KESEHATAN",
+        "ASSET": "RUMAH SAKIT",
+        "JALAN": "JL STM WALANG JAYA NO .",
+        "ID_KEL": "3175040002",
+        "KELURAHAN": "TUGU SELATAN",
+        "AREA_M2": 250,
+        "KECAMATAN": "KOJA",
+        "KOTA": "JAKARTA UTARA",
+        "RW": "002",
+        "ORIG_FID": 65
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "rumah_sakit_point.67",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9082044805952,
+          -6.1192156286778845
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "NAMA": "RSB YAYASAN YULIANA",
+        "ID_ASSET": "001317504000305002000",
+        "SECTOR": "SOSIAL DAN PERUMAHAN",
+        "SUBSECTOR": "KESEHATAN",
+        "ASSET": "RUMAH SAKIT",
+        "JALAN": "JL MAWAR LUAR NO.4",
+        "ID_KEL": "3175040003",
+        "KELURAHAN": "TUGU UTARA",
+        "AREA_M2": 303,
+        "KECAMATAN": "KOJA",
+        "KOTA": "JAKARTA UTARA",
+        "RW": "011",
+        "ORIG_FID": 66
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "rumah_sakit_point.68",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9178266441173,
+          -6.125002496946998
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "NAMA": "RUMAH SAKIT  PELABUHAN JAKARTA",
+        "ID_ASSET": "001317504000348001000",
+        "SECTOR": "SOSIAL DAN PERUMAHAN",
+        "SUBSECTOR": "KESEHATAN",
+        "ASSET": "RUMAH SAKIT",
+        "JALAN": "JL KRAMAT JAYA",
+        "ID_KEL": "3175040003",
+        "KELURAHAN": "TUGU UTARA",
+        "AREA_M2": 27227,
+        "KECAMATAN": "KOJA",
+        "KOTA": "JAKARTA UTARA",
+        "RW": "014",
+        "ORIG_FID": 67
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "rumah_sakit_point.69",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.91616077368599,
+          -6.166244415586425
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "NAMA": "RUMAH SAKIT GADING PLUIT",
+        "ID_ASSET": "001317505000347003000",
+        "SECTOR": "SOSIAL DAN PERUMAHAN",
+        "SUBSECTOR": "KESEHATAN",
+        "ASSET": "RUMAH SAKIT",
+        "JALAN": "JL RAYA TIMUR BULEVARD",
+        "ID_KEL": "3175050003",
+        "KELURAHAN": "PEGANGSAAN DUA",
+        "AREA_M2": 18897,
+        "KECAMATAN": "KELAPA GADING",
+        "KOTA": "JAKARTA UTARA",
+        "RW": "002",
+        "ORIG_FID": 68
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "rumah_sakit_point.70",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.92011622731681,
+          -6.140313976577363
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "NAMA": "RUMAH SAKIT ISLAM",
+        "ID_ASSET": "001317506000103250000",
+        "SECTOR": "SOSIAL DAN PERUMAHAN",
+        "SUBSECTOR": "KESEHATAN",
+        "ASSET": "RUMAH SAKIT",
+        "JALAN": "JL GADING GRIYA LESTARI NO.",
+        "ID_KEL": "3175060001",
+        "KELURAHAN": "SUKA PURA",
+        "AREA_M2": 323,
+        "KECAMATAN": "CILINCING",
+        "KOTA": "JAKARTA UTARA",
+        "RW": "012",
+        "ORIG_FID": 69
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "rumah_sakit_point.71",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.92072362825625,
+          -6.1398946618876415
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "NAMA": "RS. ISLAM JAKARTA UTARA",
+        "ID_ASSET": "001317506000103257000",
+        "SECTOR": "SOSIAL DAN PERUMAHAN",
+        "SUBSECTOR": "KESEHATAN",
+        "ASSET": "RUMAH SAKIT",
+        "JALAN": "JL.PELANDUK NO. 05",
+        "ID_KEL": "3175060001",
+        "KELURAHAN": "SUKA PURA",
+        "AREA_M2": 11594,
+        "KECAMATAN": "CILINCING",
+        "KOTA": "JAKARTA UTARA",
+        "RW": "012",
+        "ORIG_FID": 70
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "rumah_sakit_point.72",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.92197410046951,
+          -6.139274099406349
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "NAMA": "RS. ISLAM JAKARTA",
+        "ID_ASSET": "001317506000106002000",
+        "SECTOR": "SOSIAL DAN PERUMAHAN",
+        "SUBSECTOR": "KESEHATAN",
+        "ASSET": "RUMAH SAKIT",
+        "JALAN": "JL. TIPAR CAKUNG NO.",
+        "ID_KEL": "3175060001",
+        "KELURAHAN": "SUKA PURA",
+        "AREA_M2": 438,
+        "KECAMATAN": "CILINCING",
+        "KOTA": "JAKARTA UTARA",
+        "RW": "001",
+        "ORIG_FID": 71
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "rumah_sakit_point.73",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.95772499021382,
+          -6.119596964545896
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "NAMA": "YAYASAN PENGOBATAN UMUM",
+        "ID_ASSET": "001317506000306181000",
+        "SECTOR": "SOSIAL DAN PERUMAHAN",
+        "SUBSECTOR": "KESEHATAN",
+        "ASSET": "RUMAH SAKIT",
+        "JALAN": "JL SUNGAI TIRAM",
+        "ID_KEL": "3175060003",
+        "KELURAHAN": "MARUNDA",
+        "AREA_M2": 113,
+        "KECAMATAN": "CILINCING",
+        "KOTA": "JAKARTA UTARA",
+        "RW": "009",
+        "ORIG_FID": 72
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "rumah_sakit_point.74",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.75835224302149,
+          -6.258398837464036
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "NAMA": "Rumah Sakit",
+        "ID_ASSET": "002317104000211144000",
+        "SECTOR": "SOSIAL DAN PERUMAHAN",
+        "SUBSECTOR": "KESEHATAN",
+        "ASSET": "RUMAH SAKIT",
+        "JALAN": "",
+        "ID_KEL": "3171040002",
+        "KELURAHAN": "PESANGGRAHAN",
+        "AREA_M2": 152,
+        "KECAMATAN": "PESANGGRAHAN",
+        "KOTA": "JAKARTA SELATAN",
+        "RW": "003",
+        "ORIG_FID": 73
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "rumah_sakit_point.75",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.71234382293392,
+          -6.1528537009190964
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "NAMA": "Rumah Sakit",
+        "ID_ASSET": "002317408000213700000",
+        "SECTOR": "SOSIAL DAN PERUMAHAN",
+        "SUBSECTOR": "KESEHATAN",
+        "ASSET": "RUMAH SAKIT",
+        "JALAN": "",
+        "ID_KEL": "3174080002",
+        "KELURAHAN": "KALIDERES",
+        "AREA_M2": 1733,
+        "KECAMATAN": "KALIDERES",
+        "KOTA": "JAKARTA BARAT",
+        "RW": "017",
+        "ORIG_FID": 74
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "rumah_sakit_point.76",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.79916917902813,
+          -6.136242168875184
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "NAMA": "RS. Husada",
+        "ID_ASSET": "002317501000410045000",
+        "SECTOR": "SOSIAL DAN PERUMAHAN",
+        "SUBSECTOR": "KESEHATAN",
+        "ASSET": "RUMAH SAKIT",
+        "JALAN": "",
+        "ID_KEL": "3175010004",
+        "KELURAHAN": "PENJARINGAN",
+        "AREA_M2": 306,
+        "KECAMATAN": "PENJARINGAN",
+        "KOTA": "JAKARTA UTARA",
+        "RW": "015",
+        "ORIG_FID": 75
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "rumah_sakit_point.77",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.79329459180013,
+          -6.1259024367768955
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "NAMA": "Rumah Sakit Atmajaya",
+        "ID_ASSET": "002317501000416275000",
+        "SECTOR": "SOSIAL DAN PERUMAHAN",
+        "SUBSECTOR": "KESEHATAN",
+        "ASSET": "RUMAH SAKIT",
+        "JALAN": "",
+        "ID_KEL": "3175010004",
+        "KELURAHAN": "PENJARINGAN",
+        "AREA_M2": 0,
+        "KECAMATAN": "PENJARINGAN",
+        "KOTA": "JAKARTA UTARA",
+        "RW": "008",
+        "ORIG_FID": 76
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "rumah_sakit_point.78",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.82409734845776,
+          -6.155426283773857
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "NAMA": "Rumah Sakit Bersalin",
+        "ID_ASSET": "002317406000311173000",
+        "SECTOR": "SOSIAL DAN PERUMAHAN",
+        "SUBSECTOR": "KESEHATAN",
+        "ASSET": "RUMAH SAKIT",
+        "JALAN": "",
+        "ID_KEL": "3174060003",
+        "KELURAHAN": "TAMAN SARI",
+        "AREA_M2": 92,
+        "KECAMATAN": "TAMANSARI",
+        "KOTA": "JAKARTA BARAT",
+        "RW": "004",
+        "ORIG_FID": 77
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "rumah_sakit_point.79",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.82192606318826,
+          -6.153391847705722
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "NAMA": "RS Tebet",
+        "ID_ASSET": "002317109000210014000",
+        "SECTOR": "SOSIAL DAN PERUMAHAN",
+        "SUBSECTOR": "KESEHATAN",
+        "ASSET": "RUMAH SAKIT",
+        "JALAN": "",
+        "ID_KEL": "3174060003",
+        "KELURAHAN": "TAMAN SARI",
+        "AREA_M2": 109,
+        "KECAMATAN": "TAMANSARI",
+        "KOTA": "JAKARTA BARAT",
+        "RW": "003",
+        "ORIG_FID": 78
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "rumah_sakit_point.80",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.84198740753652,
+          -6.250899193088971
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "NAMA": "Rumah Sakit Triadipa",
+        "ID_ASSET": "002317108000410824000",
+        "SECTOR": "SOSIAL DAN PERUMAHAN",
+        "SUBSECTOR": "KESEHATAN",
+        "ASSET": "RUMAH SAKIT",
+        "JALAN": "",
+        "ID_KEL": "3171080004",
+        "KELURAHAN": "PANCORAN",
+        "AREA_M2": 762,
+        "KECAMATAN": "PANCORAN",
+        "KOTA": "JAKARTA SELATAN",
+        "RW": "001",
+        "ORIG_FID": 79
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "rumah_sakit_point.81",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8403427415575,
+          -6.20844602376261
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "NAMA": "Rumah Sakit Bersalin Ika",
+        "ID_ASSET": "002317110000613446000",
+        "SECTOR": "SOSIAL DAN PERUMAHAN",
+        "SUBSECTOR": "KESEHATAN",
+        "ASSET": "RUMAH SAKIT",
+        "JALAN": "",
+        "ID_KEL": "3171100006",
+        "KELURAHAN": "PASAR MANGGIS",
+        "AREA_M2": 246,
+        "KECAMATAN": "SETIA BUDI",
+        "KOTA": "JAKARTA SELATAN",
+        "RW": "004",
+        "ORIG_FID": 80
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "rumah_sakit_point.82",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.84149615125985,
+          -6.20892499396088
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "NAMA": "Rumah Sakit Bersalin Ika",
+        "ID_ASSET": "002317110000613447000",
+        "SECTOR": "SOSIAL DAN PERUMAHAN",
+        "SUBSECTOR": "KESEHATAN",
+        "ASSET": "RUMAH SAKIT",
+        "JALAN": "",
+        "ID_KEL": "3171100006",
+        "KELURAHAN": "PASAR MANGGIS",
+        "AREA_M2": 75,
+        "KECAMATAN": "SETIA BUDI",
+        "KOTA": "JAKARTA SELATAN",
+        "RW": "011",
+        "ORIG_FID": 81
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "rumah_sakit_point.83",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.84884220885996,
+          -6.242739698849446
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "NAMA": "RS Tebet",
+        "ID_ASSET": "002317109000210029000",
+        "SECTOR": "SOSIAL DAN PERUMAHAN",
+        "SUBSECTOR": "KESEHATAN",
+        "ASSET": "RUMAH SAKIT",
+        "JALAN": "",
+        "ID_KEL": "3171090002",
+        "KELURAHAN": "TEBET BARAT",
+        "AREA_M2": 1180,
+        "KECAMATAN": "TEBET",
+        "KOTA": "JAKARTA SELATAN",
+        "RW": "005",
+        "ORIG_FID": 82
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "rumah_sakit_point.84",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.84770291900126,
+          -6.2427095200386615
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "NAMA": "RS Tebet",
+        "ID_ASSET": "002317109000210031000",
+        "SECTOR": "SOSIAL DAN PERUMAHAN",
+        "SUBSECTOR": "KESEHATAN",
+        "ASSET": "RUMAH SAKIT",
+        "JALAN": "",
+        "ID_KEL": "3171090002",
+        "KELURAHAN": "TEBET BARAT",
+        "AREA_M2": 100,
+        "KECAMATAN": "TEBET",
+        "KOTA": "JAKARTA SELATAN",
+        "RW": "005",
+        "ORIG_FID": 83
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "rumah_sakit_point.85",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.85671709093228,
+          -6.24092514423302
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "NAMA": "RSB BUDI HARAPAN",
+        "ID_ASSET": "002317109000310348000",
+        "SECTOR": "SOSIAL DAN PERUMAHAN",
+        "SUBSECTOR": "KESEHATAN",
+        "ASSET": "RUMAH SAKIT",
+        "JALAN": "",
+        "ID_KEL": "3171090003",
+        "KELURAHAN": "TEBET TIMUR",
+        "AREA_M2": 170,
+        "KECAMATAN": "TEBET",
+        "KOTA": "JAKARTA SELATAN",
+        "RW": "006",
+        "ORIG_FID": 84
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "rumah_sakit_point.86",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.82764106537036,
+          -6.338802552268248
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "NAMA": "RS Budi Mulia",
+        "ID_ASSET": "002317101000217597000",
+        "SECTOR": "SOSIAL DAN PERUMAHAN",
+        "SUBSECTOR": "KESEHATAN",
+        "ASSET": "RUMAH SAKIT",
+        "JALAN": "",
+        "ID_KEL": "3171010002",
+        "KELURAHAN": "SRENGSENG SAWAH",
+        "AREA_M2": 2173,
+        "KECAMATAN": "JAGAKARSA",
+        "KOTA": "JAKARTA SELATAN",
+        "RW": "006",
+        "ORIG_FID": 85
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "rumah_sakit_point.87",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.90944905840871,
+          -6.248133687332854
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "NAMA": "Rumah Sakit Harum",
+        "ID_ASSET": "002317204000511255000",
+        "SECTOR": "SOSIAL DAN PERUMAHAN",
+        "SUBSECTOR": "KESEHATAN",
+        "ASSET": "RUMAH SAKIT",
+        "JALAN": "",
+        "ID_KEL": "3172040005",
+        "KELURAHAN": "CIPINANG MELAYU",
+        "AREA_M2": 1487,
+        "KECAMATAN": "MAKASAR",
+        "KOTA": "JAKARTA TIMUR",
+        "RW": "013",
+        "ORIG_FID": 86
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "rumah_sakit_point.88",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.78538537022324,
+          -6.166650246284938
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "NAMA": "RS ROYAL TARUNA",
+        "ID_ASSET": "001317404000102059000",
+        "SECTOR": "SOSIAL DAN PERUMAHAN",
+        "SUBSECTOR": "KESEHATAN",
+        "ASSET": "RUMAH SAKIT",
+        "JALAN": "JL DAAN MOGOT NO 34",
+        "ID_KEL": "3174040001",
+        "KELURAHAN": "TANJUNG DUREN UTARA",
+        "AREA_M2": 9213,
+        "KECAMATAN": "GROGOL PETAMBURAN",
+        "KOTA": "JAKARTA BARAT",
+        "RW": "001",
+        "ORIG_FID": 87
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "rumah_sakit_point.89",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.79825064444317,
+          -6.168050995854859
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "NAMA": "RUMAH SAKIT SUMBER WARAS",
+        "ID_ASSET": "001317404000323007000",
+        "SECTOR": "SOSIAL DAN PERUMAHAN",
+        "SUBSECTOR": "KESEHATAN",
+        "ASSET": "RUMAH SAKIT",
+        "JALAN": "JL. RUMAH SAKIT SUMBER WARAS NO.",
+        "ID_KEL": "3174040003",
+        "KELURAHAN": "TOMANG",
+        "AREA_M2": 0,
+        "KECAMATAN": "GROGOL PETAMBURAN",
+        "KOTA": "JAKARTA BARAT",
+        "RW": "010",
+        "ORIG_FID": 88
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "rumah_sakit_point.90",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.80458517963092,
+          -6.172736344965776
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "NAMA": "YAYASAN KESEHATAN PUTRA INDONESIA/ YKPI",
+        "ID_ASSET": "001317404000346082000",
+        "SECTOR": "SOSIAL DAN PERUMAHAN",
+        "SUBSECTOR": "KESEHATAN",
+        "ASSET": "RUMAH SAKIT",
+        "JALAN": "JL TANGGUL NO 13",
+        "ID_KEL": "3174040003",
+        "KELURAHAN": "TOMANG",
+        "AREA_M2": 62,
+        "KECAMATAN": "GROGOL PETAMBURAN",
+        "KOTA": "JAKARTA BARAT",
+        "RW": "013",
+        "ORIG_FID": 89
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "rumah_sakit_point.91",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.78700557929568,
+          -6.162069057400944
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "NAMA": "RS JIWA JAKARTA",
+        "ID_ASSET": "001317404000531046000",
+        "SECTOR": "SOSIAL DAN PERUMAHAN",
+        "SUBSECTOR": "KESEHATAN",
+        "ASSET": "RUMAH SAKIT",
+        "JALAN": "KO RS JIWA V NO.29",
+        "ID_KEL": "3174040005",
+        "KELURAHAN": "JELAMBAR",
+        "AREA_M2": 77,
+        "KECAMATAN": "GROGOL PETAMBURAN",
+        "KOTA": "JAKARTA BARAT",
+        "RW": "004",
+        "ORIG_FID": 90
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "rumah_sakit_point.92",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.78612144047732,
+          -6.162416130123328
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "NAMA": "RS JIWA DR. SOEHARTO HERDJAN",
+        "ID_ASSET": "001317404000531029000",
+        "SECTOR": "SOSIAL DAN PERUMAHAN",
+        "SUBSECTOR": "KESEHATAN",
+        "ASSET": "RUMAH SAKIT",
+        "JALAN": "KO RS JIWA NO.10",
+        "ID_KEL": "3174040005",
+        "KELURAHAN": "JELAMBAR",
+        "AREA_M2": 266,
+        "KECAMATAN": "GROGOL PETAMBURAN",
+        "KOTA": "JAKARTA BARAT",
+        "RW": "004",
+        "ORIG_FID": 91
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "rumah_sakit_point.93",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.78612590522971,
+          -6.162328896230895
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "NAMA": "RS JIWA DR. SOEHARTO HERDJAN",
+        "ID_ASSET": "001317404000531030000",
+        "SECTOR": "SOSIAL DAN PERUMAHAN",
+        "SUBSECTOR": "KESEHATAN",
+        "ASSET": "RUMAH SAKIT",
+        "JALAN": "KO RS JIWA NO.11",
+        "ID_KEL": "3174040005",
+        "KELURAHAN": "JELAMBAR",
+        "AREA_M2": 172,
+        "KECAMATAN": "GROGOL PETAMBURAN",
+        "KOTA": "JAKARTA BARAT",
+        "RW": "004",
+        "ORIG_FID": 92
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "rumah_sakit_point.94",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.78613014507617,
+          -6.1622511790913235
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "NAMA": "RS JIWA DR. SOEHARTO HERDJAN",
+        "ID_ASSET": "001317404000531031000",
+        "SECTOR": "SOSIAL DAN PERUMAHAN",
+        "SUBSECTOR": "KESEHATAN",
+        "ASSET": "RUMAH SAKIT",
+        "JALAN": "KO RS JIWA NO.12",
+        "ID_KEL": "3174040005",
+        "KELURAHAN": "JELAMBAR",
+        "AREA_M2": 215,
+        "KECAMATAN": "GROGOL PETAMBURAN",
+        "KOTA": "JAKARTA BARAT",
+        "RW": "004",
+        "ORIG_FID": 93
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "rumah_sakit_point.95",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.78796588705798,
+          -6.162803695415914
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "NAMA": "RS JIWA JAKARTA",
+        "ID_ASSET": "001317404000531053000",
+        "SECTOR": "SOSIAL DAN PERUMAHAN",
+        "SUBSECTOR": "KESEHATAN",
+        "ASSET": "RUMAH SAKIT",
+        "JALAN": "KO RS JIWA NO.35",
+        "ID_KEL": "3174040005",
+        "KELURAHAN": "JELAMBAR",
+        "AREA_M2": 0,
+        "KECAMATAN": "GROGOL PETAMBURAN",
+        "KOTA": "JAKARTA BARAT",
+        "RW": "004",
+        "ORIG_FID": 94
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "rumah_sakit_point.96",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7858058550155,
+          -6.163731647266476
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "NAMA": "RS JIWA DR. SOEHARTO HERDJAN",
+        "ID_ASSET": "001317404000533005000",
+        "SECTOR": "SOSIAL DAN PERUMAHAN",
+        "SUBSECTOR": "KESEHATAN",
+        "ASSET": "RUMAH SAKIT",
+        "JALAN": "KO RS JIWA NO.36",
+        "ID_KEL": "3174040005",
+        "KELURAHAN": "JELAMBAR",
+        "AREA_M2": 134,
+        "KECAMATAN": "GROGOL PETAMBURAN",
+        "KOTA": "JAKARTA BARAT",
+        "RW": "004",
+        "ORIG_FID": 95
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "rumah_sakit_point.97",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7858992856617,
+          -6.163740910603745
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "NAMA": "RS JIWA DR. SOEHARTO HERDJAN",
+        "ID_ASSET": "001317404000533006000",
+        "SECTOR": "SOSIAL DAN PERUMAHAN",
+        "SUBSECTOR": "KESEHATAN",
+        "ASSET": "RUMAH SAKIT",
+        "JALAN": "KO RS JIWA NO.35",
+        "ID_KEL": "3174040005",
+        "KELURAHAN": "JELAMBAR",
+        "AREA_M2": 202,
+        "KECAMATAN": "GROGOL PETAMBURAN",
+        "KOTA": "JAKARTA BARAT",
+        "RW": "004",
+        "ORIG_FID": 96
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "rumah_sakit_point.98",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.78578373832664,
+          -6.16344739150442
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "NAMA": "RS JIWA DR. SOEHARTO HERDJAN",
+        "ID_ASSET": "001317404000533008000",
+        "SECTOR": "SOSIAL DAN PERUMAHAN",
+        "SUBSECTOR": "KESEHATAN",
+        "ASSET": "RUMAH SAKIT",
+        "JALAN": "KO RS JIWA NO.32",
+        "ID_KEL": "3174040005",
+        "KELURAHAN": "JELAMBAR",
+        "AREA_M2": 82,
+        "KECAMATAN": "GROGOL PETAMBURAN",
+        "KOTA": "JAKARTA BARAT",
+        "RW": "004",
+        "ORIG_FID": 97
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "rumah_sakit_point.99",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.76431639169128,
+          -6.191106543069596
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "NAMA": "RS GRAHA MEDIKA",
+        "ID_ASSET": "001317402000406066000",
+        "SECTOR": "SOSIAL DAN PERUMAHAN",
+        "SUBSECTOR": "KESEHATAN",
+        "ASSET": "RUMAH SAKIT",
+        "JALAN": "JL PERJUANGAN BLK. EW",
+        "ID_KEL": "3174020004",
+        "KELURAHAN": "KEBON JERUK",
+        "AREA_M2": 69,
+        "KECAMATAN": "KEBON JERUK",
+        "KOTA": "JAKARTA BARAT",
+        "RW": "010",
+        "ORIG_FID": 98
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "rumah_sakit_point.100",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.76431820625795,
+          -6.1911440815043415
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "NAMA": "RS GRAHA MEDIKA",
+        "ID_ASSET": "001317402000406067000",
+        "SECTOR": "SOSIAL DAN PERUMAHAN",
+        "SUBSECTOR": "KESEHATAN",
+        "ASSET": "RUMAH SAKIT",
+        "JALAN": "JL PERJUANGAN BLK. EW",
+        "ID_KEL": "3174020004",
+        "KELURAHAN": "KEBON JERUK",
+        "AREA_M2": 79,
+        "KECAMATAN": "KEBON JERUK",
+        "KOTA": "JAKARTA BARAT",
+        "RW": "010",
+        "ORIG_FID": 99
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "rumah_sakit_point.101",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.76260172758134,
+          -6.192074711739863
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "NAMA": "SIMAMORA / RSB PEJUANGAN",
+        "ID_ASSET": "001317402000406152000",
+        "SECTOR": "SOSIAL DAN PERUMAHAN",
+        "SUBSECTOR": "KESEHATAN",
+        "ASSET": "RUMAH SAKIT",
+        "JALAN": "JL PEJUANGAN",
+        "ID_KEL": "3174020004",
+        "KELURAHAN": "KEBON JERUK",
+        "AREA_M2": 706,
+        "KECAMATAN": "KEBON JERUK",
+        "KOTA": "JAKARTA BARAT",
+        "RW": "010",
+        "ORIG_FID": 100
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "rumah_sakit_point.102",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.77354091002253,
+          -6.196061487690778
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "NAMA": "YAYASAN CACAD BADANIAH",
+        "ID_ASSET": "001317402000426203000",
+        "SECTOR": "SOSIAL DAN PERUMAHAN",
+        "SUBSECTOR": "KESEHATAN",
+        "ASSET": "RUMAH SAKIT",
+        "JALAN": "JL H KOTONG NO. 9A",
+        "ID_KEL": "3174020004",
+        "KELURAHAN": "KEBON JERUK",
+        "AREA_M2": 178,
+        "KECAMATAN": "KEBON JERUK",
+        "KOTA": "JAKARTA BARAT",
+        "RW": "003",
+        "ORIG_FID": 101
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "rumah_sakit_point.103",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7781211454616,
+          -6.191689049996642
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "NAMA": "YAYASAN STRUKE INDONESIA",
+        "ID_ASSET": "001317402000432070000",
+        "SECTOR": "SOSIAL DAN PERUMAHAN",
+        "SUBSECTOR": "KESEHATAN",
+        "ASSET": "RUMAH SAKIT",
+        "JALAN": "JL. KORAMEL V  BLK. G NO. 9",
+        "ID_KEL": "3174020004",
+        "KELURAHAN": "KEBON JERUK",
+        "AREA_M2": 783,
+        "KECAMATAN": "KEBON JERUK",
+        "KOTA": "JAKARTA BARAT",
+        "RW": "004",
+        "ORIG_FID": 102
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "rumah_sakit_point.104",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.77188086202004,
+          -6.170527078321928
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "NAMA": "YAYASAN HIMPUNAN KELUARGA KITA",
+        "ID_ASSET": "001317402000518126000",
+        "SECTOR": "SOSIAL DAN PERUMAHAN",
+        "SUBSECTOR": "KESEHATAN",
+        "ASSET": "RUMAH SAKIT",
+        "JALAN": "JL KEPA LISTRIK",
+        "ID_KEL": "3174020005",
+        "KELURAHAN": "DURI KEPA",
+        "AREA_M2": 402,
+        "KECAMATAN": "KEBON JERUK",
+        "KOTA": "JAKARTA BARAT",
+        "RW": "014",
+        "ORIG_FID": 103
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "rumah_sakit_point.105",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7714859858513,
+          -6.18553715771913
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "NAMA": "YAYASAN BINA SEHAT MANDIRI",
+        "ID_ASSET": "001317402000539067000",
+        "SECTOR": "SOSIAL DAN PERUMAHAN",
+        "SUBSECTOR": "KESEHATAN",
+        "ASSET": "RUMAH SAKIT",
+        "JALAN": "JL DURI RAYA NO.",
+        "ID_KEL": "3174020005",
+        "KELURAHAN": "DURI KEPA",
+        "AREA_M2": 995,
+        "KECAMATAN": "KEBON JERUK",
+        "KOTA": "JAKARTA BARAT",
+        "RW": "007",
+        "ORIG_FID": 104
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "rumah_sakit_point.106",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.76266412652181,
+          -6.16458934351296
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "NAMA": "YAYASAN HIDUP SEHAT",
+        "ID_ASSET": "001317402000712197000",
+        "SECTOR": "SOSIAL DAN PERUMAHAN",
+        "SUBSECTOR": "KESEHATAN",
+        "ASSET": "RUMAH SAKIT",
+        "JALAN": "KO GREEN GARDEN NO.46",
+        "ID_KEL": "3174020007",
+        "KELURAHAN": "KEDOYA UTARA",
+        "AREA_M2": 180,
+        "KECAMATAN": "KEBON JERUK",
+        "KOTA": "JAKARTA BARAT",
+        "RW": "003",
+        "ORIG_FID": 105
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "rumah_sakit_point.107",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.87073814583852,
+          -6.269893066582459
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "NAMA": "Rumah Sakit",
+        "ID_ASSET": "002317205000511838000",
+        "SECTOR": "SOSIAL DAN PERUMAHAN",
+        "SUBSECTOR": "KESEHATAN",
+        "ASSET": "RUMAH SAKIT",
+        "JALAN": "",
+        "ID_KEL": "3172050005",
+        "KELURAHAN": "KRAMAT JATI",
+        "AREA_M2": 670,
+        "KECAMATAN": "KRAMAT JATI",
+        "KOTA": "JAKARTA TIMUR",
+        "RW": "005",
+        "ORIG_FID": 106
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "rumah_sakit_point.108",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.87029652748389,
+          -6.270555664266253
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "NAMA": "Rumah Sakit",
+        "ID_ASSET": "002317205000511791000",
+        "SECTOR": "SOSIAL DAN PERUMAHAN",
+        "SUBSECTOR": "KESEHATAN",
+        "ASSET": "RUMAH SAKIT",
+        "JALAN": "",
+        "ID_KEL": "3172050005",
+        "KELURAHAN": "KRAMAT JATI",
+        "AREA_M2": 231,
+        "KECAMATAN": "KRAMAT JATI",
+        "KOTA": "JAKARTA TIMUR",
+        "RW": "005",
+        "ORIG_FID": 107
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "rumah_sakit_point.109",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.87078208620571,
+          -6.270075011029516
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "NAMA": "Rumah Sakit",
+        "ID_ASSET": "002317205000511817000",
+        "SECTOR": "SOSIAL DAN PERUMAHAN",
+        "SUBSECTOR": "KESEHATAN",
+        "ASSET": "RUMAH SAKIT",
+        "JALAN": "",
+        "ID_KEL": "3172050005",
+        "KELURAHAN": "KRAMAT JATI",
+        "AREA_M2": 8044,
+        "KECAMATAN": "KRAMAT JATI",
+        "KOTA": "JAKARTA TIMUR",
+        "RW": "005",
+        "ORIG_FID": 108
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "rumah_sakit_point.110",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.87068655120578,
+          -6.269592513479641
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "NAMA": "Rumah Sakit",
+        "ID_ASSET": "002317205000511859000",
+        "SECTOR": "SOSIAL DAN PERUMAHAN",
+        "SUBSECTOR": "KESEHATAN",
+        "ASSET": "RUMAH SAKIT",
+        "JALAN": "",
+        "ID_KEL": "3172050005",
+        "KELURAHAN": "KRAMAT JATI",
+        "AREA_M2": 1001,
+        "KECAMATAN": "KRAMAT JATI",
+        "KOTA": "JAKARTA TIMUR",
+        "RW": "005",
+        "ORIG_FID": 109
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "rumah_sakit_point.111",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.87097768449051,
+          -6.269299219578579
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "NAMA": "Rumah Sakit",
+        "ID_ASSET": "002317205000511883000",
+        "SECTOR": "SOSIAL DAN PERUMAHAN",
+        "SUBSECTOR": "KESEHATAN",
+        "ASSET": "RUMAH SAKIT",
+        "JALAN": "",
+        "ID_KEL": "3172050005",
+        "KELURAHAN": "KRAMAT JATI",
+        "AREA_M2": 426,
+        "KECAMATAN": "KRAMAT JATI",
+        "KOTA": "JAKARTA TIMUR",
+        "RW": "005",
+        "ORIG_FID": 110
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "rumah_sakit_point.112",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8665938535535,
+          -6.265722241800599
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "NAMA": "Rumah Sakit",
+        "ID_ASSET": "002317205000512561000",
+        "SECTOR": "SOSIAL DAN PERUMAHAN",
+        "SUBSECTOR": "KESEHATAN",
+        "ASSET": "RUMAH SAKIT",
+        "JALAN": "",
+        "ID_KEL": "3172050005",
+        "KELURAHAN": "KRAMAT JATI",
+        "AREA_M2": 730,
+        "KECAMATAN": "KRAMAT JATI",
+        "KOTA": "JAKARTA TIMUR",
+        "RW": "001",
+        "ORIG_FID": 111
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "rumah_sakit_point.113",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.87038590662735,
+          -6.2465945936779415
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "NAMA": "RS OTAK NASIONAL",
+        "ID_ASSET": "001317205000718010000",
+        "SECTOR": "SOSIAL DAN PERUMAHAN",
+        "SUBSECTOR": "KESEHATAN",
+        "ASSET": "RUMAH SAKIT",
+        "JALAN": "JL. LETJEN MT HARYONO NO.",
+        "ID_KEL": "3172050007",
+        "KELURAHAN": "CAWANG",
+        "AREA_M2": 11231,
+        "KECAMATAN": "KRAMAT JATI",
+        "KOTA": "JAKARTA TIMUR",
+        "RW": "006",
+        "ORIG_FID": 112
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "rumah_sakit_point.114",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.87212927736752,
+          -6.250670596451044
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "NAMA": "RSU UKI",
+        "ID_ASSET": "001317205000719001000",
+        "SECTOR": "SOSIAL DAN PERUMAHAN",
+        "SUBSECTOR": "KESEHATAN",
+        "ASSET": "RUMAH SAKIT",
+        "JALAN": "JL. MAYJEN SUTOYO NO.",
+        "ID_KEL": "3172050007",
+        "KELURAHAN": "CAWANG",
+        "AREA_M2": 0,
+        "KECAMATAN": "KRAMAT JATI",
+        "KOTA": "JAKARTA TIMUR",
+        "RW": "011",
+        "ORIG_FID": 113
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "rumah_sakit_point.115",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.86403622996862,
+          -6.253216994148144
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "NAMA": "RS BERSALIN SEJAHTERA",
+        "ID_ASSET": "001317205000733029000",
+        "SECTOR": "SOSIAL DAN PERUMAHAN",
+        "SUBSECTOR": "KESEHATAN",
+        "ASSET": "RUMAH SAKIT",
+        "JALAN": "JL DEWI SARTIKA NO 186",
+        "ID_KEL": "3172050007",
+        "KELURAHAN": "CAWANG",
+        "AREA_M2": 1581,
+        "KECAMATAN": "KRAMAT JATI",
+        "KOTA": "JAKARTA TIMUR",
+        "RW": "005",
+        "ORIG_FID": 114
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "rumah_sakit_point.116",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.86019878827335,
+          -6.256696440613606
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "NAMA": "RS BUDIASIH /TANAH PEMDA",
+        "ID_ASSET": "001317205000735071000",
+        "SECTOR": "SOSIAL DAN PERUMAHAN",
+        "SUBSECTOR": "KESEHATAN",
+        "ASSET": "RUMAH SAKIT",
+        "JALAN": "TAMAN HARAPAN NO 13",
+        "ID_KEL": "3172050007",
+        "KELURAHAN": "CAWANG",
+        "AREA_M2": 965,
+        "KECAMATAN": "KRAMAT JATI",
+        "KOTA": "JAKARTA TIMUR",
+        "RW": "003",
+        "ORIG_FID": 115
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "rumah_sakit_point.117",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.86313396631347,
+          -6.255606123266906
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "NAMA": "RSU. BUDHI ASIH",
+        "ID_ASSET": "001317205000737115000",
+        "SECTOR": "SOSIAL DAN PERUMAHAN",
+        "SUBSECTOR": "KESEHATAN",
+        "ASSET": "RUMAH SAKIT",
+        "JALAN": "JL. DEWI SARTIKA NO",
+        "ID_KEL": "3172050007",
+        "KELURAHAN": "CAWANG",
+        "AREA_M2": 2771,
+        "KECAMATAN": "KRAMAT JATI",
+        "KOTA": "JAKARTA TIMUR",
+        "RW": "003",
+        "ORIG_FID": 116
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "rumah_sakit_point.118",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.86305356372546,
+          -6.256057761319416
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "NAMA": "RSUD. BUDHI ASIH",
+        "ID_ASSET": "001317205000737179000",
+        "SECTOR": "SOSIAL DAN PERUMAHAN",
+        "SUBSECTOR": "KESEHATAN",
+        "ASSET": "RUMAH SAKIT",
+        "JALAN": "JL TAMAN HARAPAN",
+        "ID_KEL": "3172050007",
+        "KELURAHAN": "CAWANG",
+        "AREA_M2": 5415,
+        "KECAMATAN": "KRAMAT JATI",
+        "KOTA": "JAKARTA TIMUR",
+        "RW": "003",
+        "ORIG_FID": 117
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "rumah_sakit_point.119",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.864199804557,
+          -6.320840183056794
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "NAMA": "RS. STCAROLUS",
+        "ID_ASSET": "001317201000403001000",
+        "SECTOR": "SOSIAL DAN PERUMAHAN",
+        "SUBSECTOR": "KESEHATAN",
+        "ASSET": "RUMAH SAKIT",
+        "JALAN": "JL. EKA DARMAI NO.",
+        "ID_KEL": "3172010004",
+        "KELURAHAN": "CIJANTUNG",
+        "AREA_M2": 11470,
+        "KECAMATAN": "PASAR REBO",
+        "KOTA": "JAKARTA TIMUR",
+        "RW": "006",
+        "ORIG_FID": 118
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "rumah_sakit_point.120",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.86353266257282,
+          -6.321513565801318
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "NAMA": "RS ST CAROLUS",
+        "ID_ASSET": "001317201000403024000",
+        "SECTOR": "SOSIAL DAN PERUMAHAN",
+        "SUBSECTOR": "KESEHATAN",
+        "ASSET": "RUMAH SAKIT",
+        "JALAN": "JL. PEDATI NO.",
+        "ID_KEL": "3172010004",
+        "KELURAHAN": "CIJANTUNG",
+        "AREA_M2": 1745,
+        "KECAMATAN": "PASAR REBO",
+        "KOTA": "JAKARTA TIMUR",
+        "RW": "006",
+        "ORIG_FID": 119
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "rumah_sakit_point.121",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.86236796908388,
+          -6.304043497612602
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "NAMA": "RSUD PASAR REBO",
+        "ID_ASSET": "001317201000521161000",
+        "SECTOR": "SOSIAL DAN PERUMAHAN",
+        "SUBSECTOR": "KESEHATAN",
+        "ASSET": "RUMAH SAKIT",
+        "JALAN": "JL TB SIMATUPANG NO",
+        "ID_KEL": "3172010005",
+        "KELURAHAN": "GEDONG",
+        "AREA_M2": 17098,
+        "KECAMATAN": "PASAR REBO",
+        "KOTA": "JAKARTA TIMUR",
+        "RW": "002",
+        "ORIG_FID": 120
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "rumah_sakit_point.122",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.85888938232195,
+          -6.307369668042184
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "NAMA": "RS KESDAM JAYA CIJANTUNG",
+        "ID_ASSET": "001317201000536040000",
+        "SECTOR": "SOSIAL DAN PERUMAHAN",
+        "SUBSECTOR": "KESEHATAN",
+        "ASSET": "RUMAH SAKIT",
+        "JALAN": "JL MAHONI",
+        "ID_KEL": "3172010005",
+        "KELURAHAN": "GEDONG",
+        "AREA_M2": 11846,
+        "KECAMATAN": "PASAR REBO",
+        "KOTA": "JAKARTA TIMUR",
+        "RW": "006",
+        "ORIG_FID": 121
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "rumah_sakit_point.123",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8864183180096,
+          -6.196149519498519
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "NAMA": "RUMAH SAKIT DHARMA NUGRAHA",
+        "ID_ASSET": "001317209000513014000",
+        "SECTOR": "SOSIAL DAN PERUMAHAN",
+        "SUBSECTOR": "KESEHATAN",
+        "ASSET": "RUMAH SAKIT",
+        "JALAN": "JL. BALAI PUSTAKA BARU I / 47",
+        "ID_KEL": "3172090005",
+        "KELURAHAN": "RAWAMANGUN",
+        "AREA_M2": 4998,
+        "KECAMATAN": "PULO GADUNG",
+        "KOTA": "JAKARTA TIMUR",
+        "RW": "007",
+        "ORIG_FID": 122
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "rumah_sakit_point.124",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.88550347264166,
+          -6.1964246912727505
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "NAMA": "RUMAH SAKIT RAWAMANGUN",
+        "ID_ASSET": "001317209000515048000",
+        "SECTOR": "SOSIAL DAN PERUMAHAN",
+        "SUBSECTOR": "KESEHATAN",
+        "ASSET": "RUMAH SAKIT",
+        "JALAN": "JL BALAI PUSTAKA RAYA 31",
+        "ID_KEL": "3172090005",
+        "KELURAHAN": "RAWAMANGUN",
+        "AREA_M2": 1047,
+        "KECAMATAN": "PULO GADUNG",
+        "KOTA": "JAKARTA TIMUR",
+        "RW": "015",
+        "ORIG_FID": 123
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "rumah_sakit_point.125",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8850301385462,
+          -6.176001357052786
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "NAMA": "YAYASAN KARTIKA ( RUMAH SAKIT KARTIKA )",
+        "ID_ASSET": "001317209000608105000",
+        "SECTOR": "SOSIAL DAN PERUMAHAN",
+        "SUBSECTOR": "KESEHATAN",
+        "ASSET": "RUMAH SAKIT",
+        "JALAN": "JL. PULO MAS TIMUR NO.G-H",
+        "ID_KEL": "3172090006",
+        "KELURAHAN": "KAYU PUTIH",
+        "AREA_M2": 4400,
+        "KECAMATAN": "PULO GADUNG",
+        "KOTA": "JAKARTA TIMUR",
+        "RW": "014",
+        "ORIG_FID": 124
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "rumah_sakit_point.126",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8839590026434,
+          -6.180324812746804
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "NAMA": "RS. OMNI MEDICAL CENTER",
+        "ID_ASSET": "001317209000615062000",
+        "SECTOR": "SOSIAL DAN PERUMAHAN",
+        "SUBSECTOR": "KESEHATAN",
+        "ASSET": "RUMAH SAKIT",
+        "JALAN": "JL. PULOMAS BARAT VI",
+        "ID_KEL": "3172090006",
+        "KELURAHAN": "KAYU PUTIH",
+        "AREA_M2": 6415,
+        "KECAMATAN": "PULO GADUNG",
+        "KOTA": "JAKARTA TIMUR",
+        "RW": "011",
+        "ORIG_FID": 125
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "rumah_sakit_point.127",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.88470240176554,
+          -6.204333362917645
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "NAMA": "RS. PERSAHABATAN",
+        "ID_ASSET": "001317209000108177000",
+        "SECTOR": "SOSIAL DAN PERUMAHAN",
+        "SUBSECTOR": "KESEHATAN",
+        "ASSET": "RUMAH SAKIT",
+        "JALAN": "JL PERSAHABATAN RAYA NO.1",
+        "ID_KEL": "3172090001",
+        "KELURAHAN": "PISANGAN TIMUR",
+        "AREA_M2": 0,
+        "KECAMATAN": "PULO GADUNG",
+        "KOTA": "JAKARTA TIMUR",
+        "RW": "013",
+        "ORIG_FID": 126
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "rumah_sakit_point.128",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8449648042037,
+          -6.218943950831037
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "NAMA": "RS Ibu dan Anak Budhi Jaya",
+        "ID_ASSET": "002317110000511287000",
+        "SECTOR": "SOSIAL DAN PERUMAHAN",
+        "SUBSECTOR": "KESEHATAN",
+        "ASSET": "RUMAH SAKIT",
+        "JALAN": "",
+        "ID_KEL": "3171100005",
+        "KELURAHAN": "MENTENG ATAS",
+        "AREA_M2": 400,
+        "KECAMATAN": "SETIA BUDI",
+        "KOTA": "JAKARTA SELATAN",
+        "RW": "008",
+        "ORIG_FID": 127
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "rumah_sakit_point.129",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.83245778634306,
+          -6.2199649090008275
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "NAMA": "RS MMC KUNINGAN",
+        "ID_ASSET": "001317110000330003000",
+        "SECTOR": "SOSIAL DAN PERUMAHAN",
+        "SUBSECTOR": "KESEHATAN",
+        "ASSET": "RUMAH SAKIT",
+        "JALAN": "JL HR. RASUNA SAID KAV. C 21",
+        "ID_KEL": "3171100003",
+        "KELURAHAN": "KARET KUNINGAN",
+        "AREA_M2": 5392,
+        "KECAMATAN": "SETIA BUDI",
+        "KOTA": "JAKARTA SELATAN",
+        "RW": "005",
+        "ORIG_FID": 128
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "rumah_sakit_point.130",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.81722701236627,
+          -6.219076684569548
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "NAMA": "KREDOSINDO PERKASA, PT./ RUMAH SAKIT SIL",
+        "ID_ASSET": "001317110000103006000",
+        "SECTOR": "SOSIAL DAN PERUMAHAN",
+        "SUBSECTOR": "KESEHATAN",
+        "ASSET": "RUMAH SAKIT",
+        "JALAN": "JL.GARNISUN NO.12",
+        "ID_KEL": "3171100003",
+        "KELURAHAN": "KARET KUNINGAN",
+        "AREA_M2": 4407,
+        "KECAMATAN": "SETIA BUDI",
+        "KOTA": "JAKARTA SELATAN",
+        "RW": "001",
+        "ORIG_FID": 129
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "rumah_sakit_point.131",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.83365232131949,
+          -6.239840278106065
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "NAMA": "RUMAH SAKIT MEDISTRA",
+        "ID_ASSET": "001317110000216012000",
+        "SECTOR": "SOSIAL DAN PERUMAHAN",
+        "SUBSECTOR": "KESEHATAN",
+        "ASSET": "RUMAH SAKIT",
+        "JALAN": "JL.JEND GATOT SUBROTO NO. KAV 59",
+        "ID_KEL": "3171100002",
+        "KELURAHAN": "KUNINGAN TIMUR",
+        "AREA_M2": 4227,
+        "KECAMATAN": "SETIA BUDI",
+        "KOTA": "JAKARTA SELATAN",
+        "RW": "004",
+        "ORIG_FID": 130
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "rumah_sakit_point.132",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.81083776457086,
+          -6.210980375309722
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "NAMA": "RSAL MINTOHARJO",
+        "ID_ASSET": "001317301000224116000",
+        "SECTOR": "SOSIAL DAN PERUMAHAN",
+        "SUBSECTOR": "KESEHATAN",
+        "ASSET": "RUMAH SAKIT",
+        "JALAN": "JL BENDUNGAN HILIR RAYA NO.2",
+        "ID_KEL": "3173010002",
+        "KELURAHAN": "BENDUNGAN HILIR",
+        "AREA_M2": 25109,
+        "KECAMATAN": "TANAH ABANG",
+        "KOTA": "JAKARTA PUSAT",
+        "RW": "003",
+        "ORIG_FID": 131
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "rumah_sakit_point.133",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8597454996448,
+          -6.193605985280036
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "NAMA": "RS EVASARI",
+        "ID_ASSET": "001317305000105056000",
+        "SECTOR": "SOSIAL DAN PERUMAHAN",
+        "SUBSECTOR": "KESEHATAN",
+        "ASSET": "RUMAH SAKIT",
+        "JALAN": "JL RAWAMANGUN",
+        "ID_KEL": "3173050001",
+        "KELURAHAN": "RAWA SARI",
+        "AREA_M2": 2030,
+        "KECAMATAN": "",
+        "KOTA": "",
+        "RW": "003",
+        "ORIG_FID": 132
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "rumah_sakit_point.134",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.87599092031186,
+          -6.173182614920376
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "NAMA": "RUMAH SAKIT PERTAMINA JAYA",
+        "ID_ASSET": "001317305000207084000",
+        "SECTOR": "SOSIAL DAN PERUMAHAN",
+        "SUBSECTOR": "KESEHATAN",
+        "ASSET": "RUMAH SAKIT",
+        "JALAN": "JL ACHMAD YANI, JEND",
+        "ID_KEL": "3173050002",
+        "KELURAHAN": "CEMPAKA PUTIH TIMUR",
+        "AREA_M2": 4068,
+        "KECAMATAN": "CEMPAKA PUTIH",
+        "KOTA": "JAKARTA PUSAT",
+        "RW": "007",
+        "ORIG_FID": 133
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "rumah_sakit_point.135",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.81030019035332,
+          -6.304787381569913
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "NAMA": "RS.CILANDAK KKO / MARINIR  AL",
+        "ID_ASSET": "001317102000114013000",
+        "SECTOR": "SOSIAL DAN PERUMAHAN",
+        "SUBSECTOR": "KESEHATAN",
+        "ASSET": "RUMAH SAKIT",
+        "JALAN": "JL.CILANDAK KKO",
+        "ID_KEL": "3171020001",
+        "KELURAHAN": "CILANDAK TIMUR",
+        "AREA_M2": 12167,
+        "KECAMATAN": "PASAR MINGGU",
+        "KOTA": "JAKARTA SELATAN",
+        "RW": "005",
+        "ORIG_FID": 134
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "rumah_sakit_point.136",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.81931032491524,
+          -6.285954411611457
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "NAMA": "RUMAH SAKIT KEMAS",
+        "ID_ASSET": "001317102000217152000",
+        "SECTOR": "SOSIAL DAN PERUMAHAN",
+        "SUBSECTOR": "KESEHATAN",
+        "ASSET": "RUMAH SAKIT",
+        "JALAN": "JL KP. BENDUNGAN 55",
+        "ID_KEL": "3171020002",
+        "KELURAHAN": "RAGUNAN",
+        "AREA_M2": 2716,
+        "KECAMATAN": "PASAR MINGGU",
+        "KOTA": "JAKARTA SELATAN",
+        "RW": "009",
+        "ORIG_FID": 135
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "rumah_sakit_point.137",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.82086037673534,
+          -6.299300242576203
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "NAMA": "RUMAH SAKIT HEWAN ( RAGUNAN )",
+        "ID_ASSET": "001317102000234167000",
+        "SECTOR": "SOSIAL DAN PERUMAHAN",
+        "SUBSECTOR": "KESEHATAN",
+        "ASSET": "RUMAH SAKIT",
+        "JALAN": "JL. HARSONO RM NO",
+        "ID_KEL": "3171020002",
+        "KELURAHAN": "RAGUNAN",
+        "AREA_M2": 4317,
+        "KECAMATAN": "PASAR MINGGU",
+        "KOTA": "JAKARTA SELATAN",
+        "RW": "004",
+        "ORIG_FID": 136
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "rumah_sakit_point.138",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.84196922433729,
+          -6.289577184686303
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "NAMA": "YAYASAN BUNDA KANDUNG",
+        "ID_ASSET": "001317102000411095000",
+        "SECTOR": "SOSIAL DAN PERUMAHAN",
+        "SUBSECTOR": "KESEHATAN",
+        "ASSET": "RUMAH SAKIT",
+        "JALAN": "JL PALAPA RAYA",
+        "ID_KEL": "3171020004",
+        "KELURAHAN": "PASAR MINGGU",
+        "AREA_M2": 2835,
+        "KECAMATAN": "PASAR MINGGU",
+        "KOTA": "JAKARTA SELATAN",
+        "RW": "005",
+        "ORIG_FID": 137
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "rumah_sakit_point.139",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.79412540239365,
+          -6.314459261264936
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "NAMA": "RS PRIKASIH / TOETY EMY DIARTY",
+        "ID_ASSET": "001317103000233021000",
+        "SECTOR": "SOSIAL DAN PERUMAHAN",
+        "SUBSECTOR": "KESEHATAN",
+        "ASSET": "RUMAH SAKIT",
+        "JALAN": "JL RS FATMAWATI NO. 74",
+        "ID_KEL": "3171030002",
+        "KELURAHAN": "PONDOK LABU",
+        "AREA_M2": 7426,
+        "KECAMATAN": "CILANDAK",
+        "KOTA": "JAKARTA SELATAN",
+        "RW": "001",
+        "ORIG_FID": 138
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "rumah_sakit_point.140",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.795887453209,
+          -6.281289506396303
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "NAMA": "RS. SETIA MITRA",
+        "ID_ASSET": "001317103000303012000",
+        "SECTOR": "SOSIAL DAN PERUMAHAN",
+        "SUBSECTOR": "KESEHATAN",
+        "ASSET": "RUMAH SAKIT",
+        "JALAN": "JL RS. FATMAWATI",
+        "ID_KEL": "3171030003",
+        "KELURAHAN": "CILANDAK BARAT",
+        "AREA_M2": 4188,
+        "KECAMATAN": "CILANDAK",
+        "KOTA": "JAKARTA SELATAN",
+        "RW": "010",
+        "ORIG_FID": 139
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "rumah_sakit_point.141",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.79582900947199,
+          -6.281784703513369
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "NAMA": "RS. SETIA MITRA",
+        "ID_ASSET": "001317103000303013000",
+        "SECTOR": "SOSIAL DAN PERUMAHAN",
+        "SUBSECTOR": "KESEHATAN",
+        "ASSET": "RUMAH SAKIT",
+        "JALAN": "JL RS FATMAWATI",
+        "ID_KEL": "3171030003",
+        "KELURAHAN": "CILANDAK BARAT",
+        "AREA_M2": 2100,
+        "KECAMATAN": "CILANDAK",
+        "KOTA": "JAKARTA SELATAN",
+        "RW": "010",
+        "ORIG_FID": 140
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "rumah_sakit_point.142",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.78592402121186,
+          -6.297631262704832
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "NAMA": "MAYAPADA HOSPITAL PKU",
+        "ID_ASSET": "001317103000330001000",
+        "SECTOR": "SOSIAL DAN PERUMAHAN",
+        "SUBSECTOR": "KESEHATAN",
+        "ASSET": "RUMAH SAKIT",
+        "JALAN": "JL LEBAK BULUS I",
+        "ID_KEL": "3171030003",
+        "KELURAHAN": "CILANDAK BARAT",
+        "AREA_M2": 26637,
+        "KECAMATAN": "CILANDAK",
+        "KOTA": "JAKARTA SELATAN",
+        "RW": "004",
+        "ORIG_FID": 141
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "rumah_sakit_point.143",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.78849814872139,
+          -6.293495677687312
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "NAMA": "YAYASAN KANKER INDONESIA",
+        "ID_ASSET": "001317103000333002000",
+        "SECTOR": "SOSIAL DAN PERUMAHAN",
+        "SUBSECTOR": "KESEHATAN",
+        "ASSET": "RUMAH SAKIT",
+        "JALAN": "JL LEBAK BULUS TENGAH NO 9",
+        "ID_KEL": "3171030003",
+        "KELURAHAN": "CILANDAK BARAT",
+        "AREA_M2": 5627,
+        "KECAMATAN": "CILANDAK",
+        "KOTA": "JAKARTA SELATAN",
+        "RW": "004",
+        "ORIG_FID": 142
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "rumah_sakit_point.144",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.79599396968096,
+          -6.295842120502768
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "NAMA": "RS FATMAWATI",
+        "ID_ASSET": "001317103000336002000",
+        "SECTOR": "SOSIAL DAN PERUMAHAN",
+        "SUBSECTOR": "KESEHATAN",
+        "ASSET": "RUMAH SAKIT",
+        "JALAN": "JL RS FATMAWATI NO 26",
+        "ID_KEL": "3171030003",
+        "KELURAHAN": "CILANDAK BARAT",
+        "AREA_M2": 0,
+        "KECAMATAN": "CILANDAK",
+        "KOTA": "JAKARTA SELATAN",
+        "RW": "009",
+        "ORIG_FID": 143
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "rumah_sakit_point.145",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.79531921380477,
+          -6.269866885281416
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "NAMA": "YAYASAN JANTUNG INDONESIA",
+        "ID_ASSET": "001317103000408101000",
+        "SECTOR": "SOSIAL DAN PERUMAHAN",
+        "SUBSECTOR": "KESEHATAN",
+        "ASSET": "RUMAH SAKIT",
+        "JALAN": "JL CENDRAWASIH IV NO.11A",
+        "ID_KEL": "3171030004",
+        "KELURAHAN": "GANDARIA SELATAN",
+        "AREA_M2": 852,
+        "KECAMATAN": "CILANDAK",
+        "KOTA": "JAKARTA SELATAN",
+        "RW": "003",
+        "ORIG_FID": 144
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "rumah_sakit_point.146",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.78166604939854,
+          -6.28359068789089
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "NAMA": "RS PONDOK INDAH",
+        "ID_ASSET": "001317105000142113000",
+        "SECTOR": "SOSIAL DAN PERUMAHAN",
+        "SUBSECTOR": "KESEHATAN",
+        "ASSET": "RUMAH SAKIT",
+        "JALAN": "JL TAMAN DUTA I KAV.UE",
+        "ID_KEL": "3171050001",
+        "KELURAHAN": "PONDOK PINANG",
+        "AREA_M2": 12641,
+        "KECAMATAN": "KEBAYORAN LAMA",
+        "KOTA": "JAKARTA SELATAN",
+        "RW": "014",
+        "ORIG_FID": 145
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "rumah_sakit_point.147",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.77777643466162,
+          -6.255171029493897
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "NAMA": "RS, YADIKA",
+        "ID_ASSET": "001317105000203111000",
+        "SECTOR": "SOSIAL DAN PERUMAHAN",
+        "SUBSECTOR": "KESEHATAN",
+        "ASSET": "RUMAH SAKIT",
+        "JALAN": "JL CIPUTAT RAYA NO. 05-07",
+        "ID_KEL": "3171050002",
+        "KELURAHAN": "KEBAYORAN LAMA SELATAN",
+        "AREA_M2": 3333,
+        "KECAMATAN": "KEBAYORAN LAMA",
+        "KOTA": "JAKARTA SELATAN",
+        "RW": "001",
+        "ORIG_FID": 146
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "rumah_sakit_point.148",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7694033437505,
+          -6.2382127902985856
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "NAMA": "RUMAH SAKIT BERSALIN KARTINI / RATNA",
+        "ID_ASSET": "001317105000424120000",
+        "SECTOR": "SOSIAL DAN PERUMAHAN",
+        "SUBSECTOR": "KESEHATAN",
+        "ASSET": "RUMAH SAKIT",
+        "JALAN": "JL CILEDUK RAYA NO. 102",
+        "ID_KEL": "3171050004",
+        "KELURAHAN": "CIPULIR",
+        "AREA_M2": 468,
+        "KECAMATAN": "KEBAYORAN LAMA",
+        "KOTA": "JAKARTA SELATAN",
+        "RW": "006",
+        "ORIG_FID": 147
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "rumah_sakit_point.149",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.76955163921353,
+          -6.238211763183929
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "NAMA": "RUMAH SAKIT BERSALIN KARTINI",
+        "ID_ASSET": "001317105000424121000",
+        "SECTOR": "SOSIAL DAN PERUMAHAN",
+        "SUBSECTOR": "KESEHATAN",
+        "ASSET": "RUMAH SAKIT",
+        "JALAN": "JL CILEDUK RAYA NO. 100",
+        "ID_KEL": "3171050004",
+        "KELURAHAN": "CIPULIR",
+        "AREA_M2": 709,
+        "KECAMATAN": "KEBAYORAN LAMA",
+        "KOTA": "JAKARTA SELATAN",
+        "RW": "006",
+        "ORIG_FID": 148
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "rumah_sakit_point.150",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.76982316008144,
+          -6.238268836588092
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "NAMA": "RSB KARTINI/SOEKARTINI",
+        "ID_ASSET": "001317105000425001000",
+        "SECTOR": "SOSIAL DAN PERUMAHAN",
+        "SUBSECTOR": "KESEHATAN",
+        "ASSET": "RUMAH SAKIT",
+        "JALAN": "JL AMSAR",
+        "ID_KEL": "3171050004",
+        "KELURAHAN": "CIPULIR",
+        "AREA_M2": 1611,
+        "KECAMATAN": "KEBAYORAN LAMA",
+        "KOTA": "JAKARTA SELATAN",
+        "RW": "006",
+        "ORIG_FID": 149
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "rumah_sakit_point.151",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.78077018447195,
+          -6.225675626080907
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "NAMA": "YAYASAN PAIDION TALENTA",
+        "ID_ASSET": "001317105000635162000",
+        "SECTOR": "SOSIAL DAN PERUMAHAN",
+        "SUBSECTOR": "KESEHATAN",
+        "ASSET": "RUMAH SAKIT",
+        "JALAN": "JL LIMO NO. 06",
+        "ID_KEL": "3171050006",
+        "KELURAHAN": "GROGOL UTARA",
+        "AREA_M2": 505,
+        "KECAMATAN": "KEBAYORAN LAMA",
+        "KOTA": "JAKARTA SELATAN",
+        "RW": "002",
+        "ORIG_FID": 150
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "rumah_sakit_point.152",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7790078560777,
+          -6.224977487097873
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "NAMA": "RS. BERSALIN MULIA",
+        "ID_ASSET": "001317105000635201000",
+        "SECTOR": "SOSIAL DAN PERUMAHAN",
+        "SUBSECTOR": "KESEHATAN",
+        "ASSET": "RUMAH SAKIT",
+        "JALAN": "JL LIMO III NO. 08",
+        "ID_KEL": "3171050006",
+        "KELURAHAN": "GROGOL UTARA",
+        "AREA_M2": 282,
+        "KECAMATAN": "KEBAYORAN LAMA",
+        "KOTA": "JAKARTA SELATAN",
+        "RW": "002",
+        "ORIG_FID": 151
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "rumah_sakit_point.153",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.79028942585914,
+          -6.251485658966128
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "NAMA": "RS NATA SOEMARDI",
+        "ID_ASSET": "001317106000106017000",
+        "SECTOR": "SOSIAL DAN PERUMAHAN",
+        "SUBSECTOR": "KESEHATAN",
+        "ASSET": "RUMAH SAKIT",
+        "JALAN": "JL ANTENE VI",
+        "ID_KEL": "3171060001",
+        "KELURAHAN": "GANDARIA UTARA",
+        "AREA_M2": 142,
+        "KECAMATAN": "KEBAYORAN BARU",
+        "KOTA": "JAKARTA SELATAN",
+        "RW": "004",
+        "ORIG_FID": 152
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "rumah_sakit_point.154",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.80120562531457,
+          -6.248105393309564
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "NAMA": "RSB. ASIH",
+        "ID_ASSET": "001317106000507053000",
+        "SECTOR": "SOSIAL DAN PERUMAHAN",
+        "SUBSECTOR": "KESEHATAN",
+        "ASSET": "RUMAH SAKIT",
+        "JALAN": "JL. PANGLIMA POLIM 2 NO.4",
+        "ID_KEL": "3171060005",
+        "KELURAHAN": "MELAWAI",
+        "AREA_M2": 673,
+        "KECAMATAN": "KEBAYORAN BARU",
+        "KOTA": "JAKARTA SELATAN",
+        "RW": "004",
+        "ORIG_FID": 153
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "rumah_sakit_point.155",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.80092184156379,
+          -6.247873963120558
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "NAMA": "RSB. ASIH",
+        "ID_ASSET": "001317106000507055000",
+        "SECTOR": "SOSIAL DAN PERUMAHAN",
+        "SUBSECTOR": "KESEHATAN",
+        "ASSET": "RUMAH SAKIT",
+        "JALAN": "JL. PANGLIMA POLIM 1",
+        "ID_KEL": "3171060005",
+        "KELURAHAN": "MELAWAI",
+        "AREA_M2": 928,
+        "KECAMATAN": "KEBAYORAN BARU",
+        "KOTA": "JAKARTA SELATAN",
+        "RW": "004",
+        "ORIG_FID": 154
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "rumah_sakit_point.156",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.78732100012006,
+          -6.241689817374882
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "NAMA": "YAY RSB MUHAMMADIYAH",
+        "ID_ASSET": "001317106000601094000",
+        "SECTOR": "SOSIAL DAN PERUMAHAN",
+        "SUBSECTOR": "KESEHATAN",
+        "ASSET": "RUMAH SAKIT",
+        "JALAN": "JL GANDARIA I",
+        "ID_KEL": "3171060006",
+        "KELURAHAN": "KRAMAT PELA",
+        "AREA_M2": 2468,
+        "KECAMATAN": "KEBAYORAN BARU",
+        "KOTA": "JAKARTA SELATAN",
+        "RW": "002",
+        "ORIG_FID": 155
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "rumah_sakit_point.157",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.79300320467449,
+          -6.240380572555583
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "NAMA": "RS PUSAT PERTAMINA",
+        "ID_ASSET": "001317106000711066000",
+        "SECTOR": "SOSIAL DAN PERUMAHAN",
+        "SUBSECTOR": "KESEHATAN",
+        "ASSET": "RUMAH SAKIT",
+        "JALAN": "JL KYAI MAJA NO.43",
+        "ID_KEL": "3171060007",
+        "KELURAHAN": "GUNUNG",
+        "AREA_M2": 0,
+        "KECAMATAN": "KEBAYORAN BARU",
+        "KOTA": "JAKARTA SELATAN",
+        "RW": "008",
+        "ORIG_FID": 156
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "rumah_sakit_point.158",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.78977648128695,
+          -6.236320014587892
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "NAMA": "RSPP",
+        "ID_ASSET": "001317106000713075000",
+        "SECTOR": "SOSIAL DAN PERUMAHAN",
+        "SUBSECTOR": "KESEHATAN",
+        "ASSET": "RUMAH SAKIT",
+        "JALAN": "JL DEMPO I NO 01",
+        "ID_KEL": "3171060007",
+        "KELURAHAN": "GUNUNG",
+        "AREA_M2": 2251,
+        "KECAMATAN": "KEBAYORAN BARU",
+        "KOTA": "JAKARTA SELATAN",
+        "RW": "003",
+        "ORIG_FID": 157
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "rumah_sakit_point.159",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.80398640292235,
+          -6.23629661244553
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "NAMA": "RSCM POLIKLINIK",
+        "ID_ASSET": "001317106000806006000",
+        "SECTOR": "SOSIAL DAN PERUMAHAN",
+        "SUBSECTOR": "KESEHATAN",
+        "ASSET": "RUMAH SAKIT",
+        "JALAN": "JL. ADITYAWARMAN NO.26",
+        "ID_KEL": "3171060008",
+        "KELURAHAN": "SELONG",
+        "AREA_M2": 1282,
+        "KECAMATAN": "KEBAYORAN BARU",
+        "KOTA": "JAKARTA SELATAN",
+        "RW": "002",
+        "ORIG_FID": 158
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "rumah_sakit_point.160",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.81544610607592,
+          -6.235373659466178
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "NAMA": "YAYASAN RS KEBAYORAN",
+        "ID_ASSET": "001317106000905132000",
+        "SECTOR": "SOSIAL DAN PERUMAHAN",
+        "SUBSECTOR": "KESEHATAN",
+        "ASSET": "RUMAH SAKIT",
+        "JALAN": "JL BIRAH III",
+        "ID_KEL": "3171060009",
+        "KELURAHAN": "RAWA BARAT",
+        "AREA_M2": 1246,
+        "KECAMATAN": "KEBAYORAN BARU",
+        "KOTA": "JAKARTA SELATAN",
+        "RW": "006",
+        "ORIG_FID": 159
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "rumah_sakit_point.161",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.81309953142487,
+          -6.256977928003412
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "NAMA": "YAYASAN BES ( ORCHARD CLINIC )",
+        "ID_ASSET": "001317107000101110000",
+        "SECTOR": "SOSIAL DAN PERUMAHAN",
+        "SUBSECTOR": "KESEHATAN",
+        "ASSET": "RUMAH SAKIT",
+        "JALAN": "JL. KEMANG I",
+        "ID_KEL": "3171070001",
+        "KELURAHAN": "BANGKA",
+        "AREA_M2": 1576,
+        "KECAMATAN": "MAMPANG PRAPATAN",
+        "KOTA": "JAKARTA SELATAN",
+        "RW": "001",
+        "ORIG_FID": 160
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "rumah_sakit_point.162",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.82563923129962,
+          -6.246890599061314
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "NAMA": "RSB BUDI MULIA",
+        "ID_ASSET": "001317107000302033000",
+        "SECTOR": "SOSIAL DAN PERUMAHAN",
+        "SUBSECTOR": "KESEHATAN",
+        "ASSET": "RUMAH SAKIT",
+        "JALAN": "JL MAMPANG PRAPATAN RAYA",
+        "ID_KEL": "3171070003",
+        "KELURAHAN": "TEGAL PARANG",
+        "AREA_M2": 881,
+        "KECAMATAN": "MAMPANG PRAPATAN",
+        "KOTA": "JAKARTA SELATAN",
+        "RW": "006",
+        "ORIG_FID": 161
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "rumah_sakit_point.163",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.85894341814004,
+          -6.220991186290148
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "NAMA": "RS MEDICAL ROTARI",
+        "ID_ASSET": "001317109000528041000",
+        "SECTOR": "SOSIAL DAN PERUMAHAN",
+        "SUBSECTOR": "KESEHATAN",
+        "ASSET": "RUMAH SAKIT",
+        "JALAN": "JL BUKIT DURI GG BENGKEL LAS",
+        "ID_KEL": "3171090005",
+        "KELURAHAN": "BUKIT DURI",
+        "AREA_M2": 690,
+        "KECAMATAN": "TEBET",
+        "KOTA": "JAKARTA SELATAN",
+        "RW": "008",
+        "ORIG_FID": 162
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "rumah_sakit_point.164",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.81628870256529,
+          -6.218406374144243
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "NAMA": "YAYASAN RUMAH SAKIT JAKARTA",
+        "ID_ASSET": "001317110000102003000",
+        "SECTOR": "SOSIAL DAN PERUMAHAN",
+        "SUBSECTOR": "KESEHATAN",
+        "ASSET": "RUMAH SAKIT",
+        "JALAN": "JL.GARNISUN NO.",
+        "ID_KEL": "3171100001",
+        "KELURAHAN": "KARET SEMANGGI",
+        "AREA_M2": 10343,
+        "KECAMATAN": "SETIA BUDI",
+        "KOTA": "JAKARTA SELATAN",
+        "RW": "004",
+        "ORIG_FID": 163
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "rumah_sakit_point.165",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.82852442805458,
+          -6.2143293201689485
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "NAMA": "RUMAH SAKIT MATA AINI",
+        "ID_ASSET": "001317110000410010000",
+        "SECTOR": "SOSIAL DAN PERUMAHAN",
+        "SUBSECTOR": "KESEHATAN",
+        "ASSET": "RUMAH SAKIT",
+        "JALAN": "JL KARET BELAKANG TIMUR NO K-2",
+        "ID_KEL": "3171100004",
+        "KELURAHAN": "KARET",
+        "AREA_M2": 8255,
+        "KECAMATAN": "SETIA BUDI",
+        "KOTA": "JAKARTA SELATAN",
+        "RW": "005",
+        "ORIG_FID": 164
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "rumah_sakit_point.166",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.86758762887555,
+          -6.2324444399046
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "NAMA": "RS MARTOYO / JAYA MIE",
+        "ID_ASSET": "001317206000139028000",
+        "SECTOR": "SOSIAL DAN PERUMAHAN",
+        "SUBSECTOR": "KESEHATAN",
+        "ASSET": "RUMAH SAKIT",
+        "JALAN": "JL. OTISTA RAYA NO. -",
+        "ID_KEL": "3172060001",
+        "KELURAHAN": "BIDARA CINA",
+        "AREA_M2": 40,
+        "KECAMATAN": "JATINEGARA",
+        "KOTA": "JAKARTA TIMUR",
+        "RW": "009",
+        "ORIG_FID": 165
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "rumah_sakit_point.167",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.86881830094401,
+          -6.221661139132688
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "NAMA": "PT PUTRAMAS MULIA SENTOSA/RS PREMIER JAT",
+        "ID_ASSET": "001317206000714022000",
+        "SECTOR": "SOSIAL DAN PERUMAHAN",
+        "SUBSECTOR": "KESEHATAN",
+        "ASSET": "RUMAH SAKIT",
+        "JALAN": "JL JATINEGARA TIMUR NO.85 A",
+        "ID_KEL": "3172060007",
+        "KELURAHAN": "BALI MESTER",
+        "AREA_M2": 4779,
+        "KECAMATAN": "JATINEGARA",
+        "KOTA": "JAKARTA TIMUR",
+        "RW": "002",
+        "ORIG_FID": 166
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "rumah_sakit_point.168",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.86468391446923,
+          -6.220787500596447
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "NAMA": "RS IBU & ANAK HERMINA",
+        "ID_ASSET": "001317206000810091000",
+        "SECTOR": "SOSIAL DAN PERUMAHAN",
+        "SUBSECTOR": "KESEHATAN",
+        "ASSET": "RUMAH SAKIT",
+        "JALAN": "JL. ANWAR II  NO. 126",
+        "ID_KEL": "3172060008",
+        "KELURAHAN": "KAMPUNG MELAYU",
+        "AREA_M2": 1781,
+        "KECAMATAN": "JATINEGARA",
+        "KOTA": "JAKARTA TIMUR",
+        "RW": "001",
+        "ORIG_FID": 167
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "rumah_sakit_point.169",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.86452141617401,
+          -6.221192995155078
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "NAMA": "YAYASAN HERMINA",
+        "ID_ASSET": "001317206000810116000",
+        "SECTOR": "SOSIAL DAN PERUMAHAN",
+        "SUBSECTOR": "KESEHATAN",
+        "ASSET": "RUMAH SAKIT",
+        "JALAN": "JL. ANWAR I",
+        "ID_KEL": "3172060008",
+        "KELURAHAN": "KAMPUNG MELAYU",
+        "AREA_M2": 97,
+        "KECAMATAN": "JATINEGARA",
+        "KOTA": "JAKARTA TIMUR",
+        "RW": "001",
+        "ORIG_FID": 168
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "rumah_sakit_point.170",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.86466425582886,
+          -6.2213994166083975
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "NAMA": "RS IBU & ANAK HERMINA",
+        "ID_ASSET": "001317206000810124000",
+        "SECTOR": "SOSIAL DAN PERUMAHAN",
+        "SUBSECTOR": "KESEHATAN",
+        "ASSET": "RUMAH SAKIT",
+        "JALAN": "JL. JATINEGARA BARAT  NO. 132 A",
+        "ID_KEL": "3172060008",
+        "KELURAHAN": "KAMPUNG MELAYU",
+        "AREA_M2": 2540,
+        "KECAMATAN": "JATINEGARA",
+        "KOTA": "JAKARTA TIMUR",
+        "RW": "001",
+        "ORIG_FID": 169
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "rumah_sakit_point.171",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.89917196359146,
+          -6.23711757517311
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "NAMA": "RS YADIKA",
+        "ID_ASSET": "001317207000128001000",
+        "SECTOR": "SOSIAL DAN PERUMAHAN",
+        "SUBSECTOR": "KESEHATAN",
+        "ASSET": "RUMAH SAKIT",
+        "JALAN": "JL PAHLAWAN REVOLUSI",
+        "ID_KEL": "3172070001",
+        "KELURAHAN": "PONDOK BAMBU",
+        "AREA_M2": 3836,
+        "KECAMATAN": "DUREN SAWIT",
+        "KOTA": "JAKARTA TIMUR",
+        "RW": "005",
+        "ORIG_FID": 170
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "rumah_sakit_point.172",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.91049590809727,
+          -6.241108908589447
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "NAMA": "RSB SARANA JAYA DKI",
+        "ID_ASSET": "001317207000140046000",
+        "SECTOR": "SOSIAL DAN PERUMAHAN",
+        "SUBSECTOR": "KESEHATAN",
+        "ASSET": "RUMAH SAKIT",
+        "JALAN": "JL DOGOL, H",
+        "ID_KEL": "3172070002",
+        "KELURAHAN": "DUREN SAWIT",
+        "AREA_M2": 3550,
+        "KECAMATAN": "DUREN SAWIT",
+        "KOTA": "JAKARTA TIMUR",
+        "RW": "016",
+        "ORIG_FID": 171
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "rumah_sakit_point.173",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.94012127653804,
+          -6.220393004381693
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "NAMA": "RUMAH SAKIT ISLAM",
+        "ID_ASSET": "001317207000401034000",
+        "SECTOR": "SOSIAL DAN PERUMAHAN",
+        "SUBSECTOR": "KESEHATAN",
+        "ASSET": "RUMAH SAKIT",
+        "JALAN": "JL PONDOK KOPI RAYA",
+        "ID_KEL": "3172070004",
+        "KELURAHAN": "PONDOK KOPI",
+        "AREA_M2": 17188,
+        "KECAMATAN": "DUREN SAWIT",
+        "KOTA": "JAKARTA TIMUR",
+        "RW": "001",
+        "ORIG_FID": 172
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "rumah_sakit_point.174",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.94761498000665,
+          -6.225053938641125
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "NAMA": "YAYASAN KLINIK PERSADA",
+        "ID_ASSET": "001317207000424085000",
+        "SECTOR": "SOSIAL DAN PERUMAHAN",
+        "SUBSECTOR": "KESEHATAN",
+        "ASSET": "RUMAH SAKIT",
+        "JALAN": "JL.MALAKA BARU RAYA",
+        "ID_KEL": "3172070004",
+        "KELURAHAN": "PONDOK KOPI",
+        "AREA_M2": 107,
+        "KECAMATAN": "DUREN SAWIT",
+        "KOTA": "JAKARTA TIMUR",
+        "RW": "007",
+        "ORIG_FID": 173
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "rumah_sakit_point.175",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9331872486333,
+          -6.221993220140237
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "NAMA": "RUMAH SAKIT ISLAM",
+        "ID_ASSET": "001317207000506002000",
+        "SECTOR": "SOSIAL DAN PERUMAHAN",
+        "SUBSECTOR": "KESEHATAN",
+        "ASSET": "RUMAH SAKIT",
+        "JALAN": "JL BUNGA RAMPAI X",
+        "ID_KEL": "3172070005",
+        "KELURAHAN": "MALAKA JAYA",
+        "AREA_M2": 3076,
+        "KECAMATAN": "DUREN SAWIT",
+        "KOTA": "JAKARTA TIMUR",
+        "RW": "005",
+        "ORIG_FID": 174
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "rumah_sakit_point.176",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.90641992277838,
+          -6.19501889554906
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "NAMA": "RS HARAPAN JAYAKARTA",
+        "ID_ASSET": "001317208000101072000",
+        "SECTOR": "SOSIAL DAN PERUMAHAN",
+        "SUBSECTOR": "KESEHATAN",
+        "ASSET": "RUMAH SAKIT",
+        "JALAN": "JL RAYA BEKASI",
+        "ID_KEL": "3172080001",
+        "KELURAHAN": "JATINEGARA",
+        "AREA_M2": 3480,
+        "KECAMATAN": "CAKUNG",
+        "KOTA": "JAKARTA TIMUR",
+        "RW": "011",
+        "ORIG_FID": 175
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "rumah_sakit_point.177",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.958693526467,
+          -6.193431302908805
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "NAMA": "RSPP/PERTAMINA",
+        "ID_ASSET": "001317208000414066000",
+        "SECTOR": "SOSIAL DAN PERUMAHAN",
+        "SUBSECTOR": "KESEHATAN",
+        "ASSET": "RUMAH SAKIT",
+        "JALAN": "JL ARUN IX",
+        "ID_KEL": "3172080004",
+        "KELURAHAN": "UJUNG MENTENG",
+        "AREA_M2": 575,
+        "KECAMATAN": "CAKUNG",
+        "KOTA": "JAKARTA TIMUR",
+        "RW": "004",
+        "ORIG_FID": 176
+      }
+    }
+  ],
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:EPSG::4326"
+    }
+  }
+}

@@ -1,0 +1,92 @@
+<HTML>
+<HEAD>
+    <TITLE></TITLE>
+    <meta charset="utf-8">
+    <script src="js/jquery-3.2.0.js"></script>
+    <script type="text/javascript" src="js/d3.min.js"></script>
+    <script src="js/d3.geo.projection.min.js" type="text/JavaScript"></script>
+    <script type="text/javascript" src="js/index0.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+    <script type="text/javascript" src="js/index_2.js"></script>
+    <script type="text/javascript" src="js/drivers.js"></script>
+    <script src="js/d3.v3.min.js" type="text/JavaScript"></script>
+    <script src="js/colorbrewer.js" type="text/JavaScript"></script>
+    <!--<script src="js/d3-scale-chromatic.v1.min.js" type="text/JavaScript"></script>-->
+    <script type="text/javascript" src="js/d3.tip.v0.6.3.js"></script>
+    <link rel="stylesheet" href="css/multiseries.css"/>
+    <style>
+        li {
+            font-family: "Verdana";
+            font-size: 16;
+            font-weight: bold;
+            text-shadow: 1px 2px 2px #555555;
+            margin: 3px;
+            list-style: none;
+        }
+    </style>
+    <script>
+        $(document).ready(function () {
+
+            draw_pan("#myChart");
+            draw_map("svg", 1);
+
+            $("input[type=radio][name=dataSeries]").change(function () {
+                document.getElementById("tes").checked = false;
+                series = parseInt($(this).val());
+                draw_map("svg", series);
+            });
+
+            ////////////////////////////////////////////////////////////////////////
+
+            var chkbox = [false, false];
+            $("input[type=checkbox][name=0]").change(function () {
+                if (this.checked) {
+                    chkbox[0] = true;
+                } else {
+                    chkbox[0] = false;
+                }
+                draw_health("svg", chkbox);
+            });
+
+            $("input[type=checkbox][name=1]").change(function () {
+                if (this.checked) {
+                    chkbox[1] = true;
+                } else {
+                    chkbox[1] = false;
+                }
+                draw_health("svg", chkbox);
+            });
+
+			$("input[type=checkbox][name=2]").change(function(){
+				if(this.checked){
+                    chkbox[2] = true;
+				}else{
+                    chkbox[2] = false;
+				}
+				draw_drivers("svg", chkbox);
+			});
+        });
+    </script>
+</HEAD>
+<BODY>
+<script src="js/d3.geo.projection.min.js" type="text/JavaScript"></script>
+<div>
+    <ul>
+        Administration Boundary :
+        <li><input name="dataSeries" value="1" type="radio" checked/>Kotamadya</li>
+        <li><input name="dataSeries" value="2" type="radio"/>Kecamatan</li>
+        <li><input name="dataSeries" value="3" type="radio"/>Kelurahan</li>
+    </ul>
+    <ul>
+        Health Institutions :
+        <li><input name="0" type="checkbox"/>Rumah Sakit</li>
+        <li><input name="1" type="checkbox"/>Puskesmas</li>
+    </ul>
+    <ul>
+        Drivers :
+        <li><input name="2" type="checkbox" id="tes"/>Tidak Sehat</li>
+    </ul>
+</div>
+<div id="myChart"></div>
+</BODY>
+</HTML>
