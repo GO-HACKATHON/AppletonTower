@@ -1,6 +1,7 @@
 package tech.titikkoma.cerebro;
 
 import android.Manifest;
+import android.app.AlertDialog;
 import android.app.ProgressDialog;
 import android.bluetooth.BluetoothAdapter;
 import android.bluetooth.BluetoothDevice;
@@ -65,6 +66,7 @@ import java.io.InputStreamReader;
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
+import java.util.Random;
 import java.util.Timer;
 import java.util.TimerTask;
 import java.util.UUID;
@@ -76,7 +78,7 @@ public class ProfileActivity extends AppCompatActivity implements GoogleApiClien
 
     private final String TAG = "tkd";
     private final String SERVER_URL = "http://5c8b765b.ngrok.io/storage/";
-    private final int REQUEST_INTERVAL = 10000;
+    private final int REQUEST_INTERVAL = 5000;
 
     // COMM SDK handles
     private TgStreamReader tgStreamReader;
@@ -102,6 +104,8 @@ public class ProfileActivity extends AppCompatActivity implements GoogleApiClien
     private TextView attentionValue;
     private TextView calmnessValue;
     private TextView hrValue;
+    private TextView distanceValue;
+    private TextView durationValue;
 
     private NskAlgoSdk nskAlgoSdk;
     private GoogleApiClient mGAC;
@@ -130,17 +134,19 @@ public class ProfileActivity extends AppCompatActivity implements GoogleApiClien
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-//                headsetSetup();
-                sendData();
+                headsetSetup();
             }
         });
 
         attentionValue = (TextView) findViewById(R.id.attention);
         calmnessValue = (TextView) findViewById(R.id.calmness);
         hrValue = (TextView) findViewById(R.id.heart_rate);
+        distanceValue = (TextView) findViewById(R.id.distance);
+        durationValue = (TextView) findViewById(R.id.duration);
 
 //        miBand = new MiBand(ProfileActivity.this);
 //        initMiBand();
+        heartBeat();
 
         nskAlgoSdk = new NskAlgoSdk();
         algoSetup();
@@ -667,12 +673,31 @@ public class ProfileActivity extends AppCompatActivity implements GoogleApiClien
         CustomRequest jsonObjectRequest = new CustomRequest(Request.Method.POST, SERVER_URL, params,
                 new Response.Listener<JSONObject>() {
                     @Override
-                    public void onResponse(JSONObject response) {
-//                        try {
-                        Log.d(TAG, response.toString());
-//                        } catch (JSONException e) {
-//                            Log.e(TAG, e.getMessage());
-//                        }
+                    public void onResponse(final JSONObject response) {
+                        runOnUiThread(new Runnable() {
+                            @Override
+                            public void run() {
+                                try {
+                                    // change UI elements here
+                                    Double time = response.getDouble("duration");
+                                    int hours = time.intValue() / 60;
+                                    int minutes = time.intValue() % 60;
+                                    durationValue.setText(String.format("%d jam %d menit", hours, minutes));
+                                    distanceValue.setText(String.format("%.2f km", response.getDouble("distance")));
+                                    if (response.getString("driverStatus").equals("NOT FIT")) {
+                                        new AlertDialog.Builder(ProfileActivity.this)
+                                                .setTitle("Perhatian")
+                                                .setMessage("Anda sedang tidak fit! Kami menganjurkan " +
+                                                        "Anda beristirahat selama " +
+                                                        (int) response.getDouble("rest") + " menit")
+                                                .setIcon(android.R.drawable.stat_sys_warning)
+                                                .show();
+                                    }
+                                } catch (JSONException e) {
+                                    Log.e(TAG, e.getMessage());
+                                }
+                            }
+                        });
                     }
                 }, new Response.ErrorListener() {
             @Override
@@ -716,9 +741,28 @@ public class ProfileActivity extends AppCompatActivity implements GoogleApiClien
                 sendData();
             }
         };
-        timer.schedule(doAsynchronousTask, 0, REQUEST_INTERVAL); //execute in every 50000 ms
+        timer.schedule(doAsynchronousTask, 0, REQUEST_INTERVAL);
     }
 
+    public void heartBeat() {
+        Timer timer = new Timer();
+        TimerTask doAsynchronousTask = new TimerTask() {
+            @Override
+            public void run() {
+                Random r = new Random();
+                heartRate = (int) (65 + r.nextGaussian() * 2);
+                final String hr = heartRate + " bpm";
+                runOnUiThread(new Runnable() {
+                    @Override
+                    public void run() {
+                        // change UI elements here
+                        hrValue.setText(hr);
+                    }
+                });
+            }
+        };
+        timer.schedule(doAsynchronousTask, 0, REQUEST_INTERVAL * 2);
+    }
 
     @Override
     public void onNotify(int heartRate) {

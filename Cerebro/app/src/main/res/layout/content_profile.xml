@@ -25,7 +25,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             style="@style/Data"
-            android:text="5 jam 10 menit" />
+            android:text="-" />
 
         <TextView
             style="@style/Heading"
@@ -39,7 +39,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             style="@style/Data"
-            android:text="50 km" />
+            android:text="-" />
 
         <TextView
             style="@style/Heading"
