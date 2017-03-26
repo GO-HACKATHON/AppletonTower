@@ -11,6 +11,7 @@ import android.bluetooth.BluetoothGattCharacteristic;
 import android.bluetooth.BluetoothGattDescriptor;
 import android.bluetooth.le.ScanCallback;
 import android.bluetooth.le.ScanResult;
+import android.content.Context;
 import android.content.DialogInterface;
 import android.content.pm.PackageManager;
 import android.location.Location;
@@ -126,6 +127,10 @@ public class ProfileActivity extends AppCompatActivity implements GoogleApiClien
         setContentView(R.layout.activity_profile);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
+
+        App.preferences = this.getSharedPreferences(App.HOST_KEY, Context.MODE_PRIVATE);
+        App.host = App.preferences.getString(App.HOST_KEY, App.host);
+        App.url = App.host + App.CHECK;
 
         dataView = findViewById(R.id.data);
         loadingDialog = new ProgressDialog(ProfileActivity.this);
@@ -514,6 +519,7 @@ public class ProfileActivity extends AppCompatActivity implements GoogleApiClien
 
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_settings) {
+            App.showServerSettings(ProfileActivity.this);
             return true;
         }
         return super.onOptionsItemSelected(item);
@@ -667,10 +673,10 @@ public class ProfileActivity extends AppCompatActivity implements GoogleApiClien
         params.put("meditation", String.valueOf(calmness));
         params.put("lat", String.valueOf(lat));
         params.put("lng", String.valueOf(lng));
-        params.put("hr", String.valueOf(64));
+        params.put("hr", String.valueOf(heartRate));
 
         // Request a string response from the provided URL.
-        CustomRequest jsonObjectRequest = new CustomRequest(Request.Method.POST, SERVER_URL, params,
+        CustomRequest jsonObjectRequest = new CustomRequest(Request.Method.POST, App.url, params,
                 new Response.Listener<JSONObject>() {
                     @Override
                     public void onResponse(final JSONObject response) {
